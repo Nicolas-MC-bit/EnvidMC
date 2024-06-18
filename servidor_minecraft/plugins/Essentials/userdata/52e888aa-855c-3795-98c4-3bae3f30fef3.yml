@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718687135629
+  login: 1718687138848
+money: '0'
+last-account-name: YungDuk
+logoutlocation:
+  world: e53d735c-9063-439e-9f40-74548cd0804e
+  world-name: world
+  x: 22.729213630741622
+  y: 149.48746775852166
+  z: 6.143790829006411
+  yaw: -170.95065307617188
+  pitch: 31.34988784790039
