@@ -12,16 +12,16 @@ Messages:
   Title:
     # Message sent before login
     before-login:
-      title: "&a&lWELCOME!"
-      subtitle: "&7Use: /login <your password>"
+      title: "&a&lBIENVENIDO&7!"
+      subtitle: "&7Use&8: &e/Login [Contraseña]"
       delays:
         start: 0
         duration: 9999
         end: 6
     # Message sent before registration
     before-register:
-      title: "&a&lWELCOME!"
-      subtitle: "&7Use: /register <your password> <your password>"
+      title: "&a&lBIENVENIDO&7!"
+      subtitle: "&7Use&8: &e/Register [Contraseña] [Contraseña]"
       delays:
         start: 0
         duration: 9999
@@ -29,7 +29,7 @@ Messages:
     # Message sent after login
     after-login:
       title: ""
-      subtitle: "&aYou have successfully logged in!"
+      subtitle: "&8[ &aHas iniciado sesion correctamente&8]"
       delays:
         start: 0
         duration: 60
@@ -37,7 +37,7 @@ Messages:
     # Message sent after register
     after-register:
       title: ""
-      subtitle: "&aYou have successfully registered!"
+      subtitle: "&8[ &aTe has registrado correctamente&8]"
       delays:
         start: 0
         duration: 60
@@ -45,80 +45,80 @@ Messages:
 
   delay-kick:
     # Message sent when a user takes a long time to register
-    register-kick: "&cYou took too long to register."
+    register-kick: "&cTardaste demasiado en registrarte."
 
     # Message sent when a user takes a long time to log in
-    login-kick: "&cYou took too long to login."
+    login-kick: "&cTardaste demasiado en iniciar sesión."
 
   successful-operations:
     # Message when a user exchanges their password
-    password-changed: "&aYour password has been successfully changed."
+    password-changed: "&aSu contraseña ha sido cambiada exitosamente."
 
     # Message sent when a user successfully logs
-    successful-login: "&aYou have successfully logged."
+    successful-login: "&aHas iniciado sesión correctamente."
 
     # Message sent when a user successfully registers
-    successful-register: "&aYou have successfully registered."
+    successful-register: "&aSe ha registrado exitosamente."
 
     # Message sent when a player successfully disregisters
-    unregister-kick: "&cYou have successfully unregistered."
+    unregister-kick: "&cTe has dado de baja con éxito."
 
   kick-messages:
     # Message when a player tries to log on to the server with a small difference in the nickname
     nick-already-registered: "&cYou can not enter with nickname {0}&r\n&r&cThis username has already been registered as {1}&r\n&r\n&r&cTo enter, you must use your nickname without uppercase/lowercase"
 
     # Message sent when a user misses many times
-    failed-many-times: "&cYou entered the incorrect password."
+    failed-many-times: "&cIngresaste la contraseña incorrecta."
 
     # Message sent when password entered is incorrect
-    incorrect-password: "&cIncorrect password. Please, try again."
+    incorrect-password: "&cContraseña incorrecta. Inténtalo de nuevo."
 
     # Message sent when a player enters an invalid nickname.
-    invalid-nickname: "&cSorry, but you are using an invalid nickname."
+    invalid-nickname: "&cLo sentimos, pero estás usando un apodo no válido."
 
   error-messages:
     # Message sent when you are already logged in.
-    already-login: "&cYou are already logged in."
+    already-login: "&cYa se ha autentificado."
 
     # Message sent when a nickname has already been registered.
-    already-registered: "&cThis nickname has already been registered."
+    already-registered: "&cEste apodo ya ha sido registrado."
 
     # Message sent when a nickname has not yet been registered.
-    not-registered: "&cThis nickname has not yet been registered."
+    not-registered: "&cEste apodo aún no ha sido registrado."
 
     # Message sent when the entered password is not equal to the second
-    passwords-dont-match: "&cPasswords are not the same."
+    passwords-dont-match: "&cLas contraseñas no son similares."
 
     # Message sent when a player tries to change password by entering the same password as the current
-    password-same-as-old: "&cThe password entered is the same as the current."
+    password-same-as-old: "&cLa contraseña ingresada es la misma que la actual."
 
     # Message sent when the password entered is too large
-    password-too-large: "&cThe password entered is too large."
+    password-too-large: "&cLa contraseña ingresada es demasiado grande."
 
     # Message sent when the password entered is too small
-    password-too-small: "&cThe password entered is too small."
+    password-too-small: "&cLa contraseña ingresada es demasiado pequeña. La contraseña ingresada es demasiado grande."
 
     # Message when a player does not possess the required permission
-    insufficient-permissions: "&cYou do not have permission to run this command."
+    insufficient-permissions: "&cNo tienes permiso para ejecutar este comando."
 
     # Message to kick a player now online
-    already-online: "&cThis player is already online."
+    already-online: "&cEste jugador ya está en línea."
 
     # Message to show that the command cannot be executed via console
-    player-command-usage: "&cThis command has been disabled via console."
+    player-command-usage: "&cEste comando ha sido deshabilitado a través de la consola."
 
     # Message shown when the plugin is reloaded.
-    plugin-reload-message: "&eThe plugin has been successfully reloaded."
+    plugin-reload-message: "&eEl complemento se ha recargado correctamente."
 
     # Message sent when a database operation has not been successfully performed
-    database-error: "&cSorry, we were unable to complete this operation. Please try again. [SQL FAIL]"
+    database-error: "&cLo sentimos, no pudimos completar esta operación. Inténtalo de nuevo. [SQL FAIL]"
 
   other-messages:
     # Message sent to use the /login command
-    message-login: "&eUse the command /login <password>"
+    message-login: "&eUse&8: &e/Login [Contraseña]"
 
     # Message sent to use the /register command
-    message-register: "&eUse the command /register <password> <password>"
+    message-register: "&7Use&8: &e/Register [Contraseña] [Contraseña]"
 
     # Message sent to use the /changepassword command
     message-changepassword: "&eUse the command /changepassword <current password> <new password>"

@@ -52,7 +52,7 @@ class EndTag extends Tag
     /**
      * @inheritDoc
      */
-    public function jsonSerialize(): mixed
+    public function jsonSerialize()
     {
         return null;
     }

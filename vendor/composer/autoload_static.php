@@ -14,7 +14,6 @@ class ComposerStaticInitbf6d241c4361e4b41f7e4118989d534a
         'A' => 
         array (
             'Aternos\\Thanos\\' => 15,
-            'Aternos\\Taskmaster\\' => 19,
             'Aternos\\Nbt\\' => 12,
         ),
     );
@@ -27,10 +26,6 @@ class ComposerStaticInitbf6d241c4361e4b41f7e4118989d534a
         'Aternos\\Thanos\\' => 
         array (
             0 => __DIR__ . '/..' . '/aternos/thanos/src',
-        ),
-        'Aternos\\Taskmaster\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/aternos/taskmaster/src',
         ),
         'Aternos\\Nbt\\' => 
         array (

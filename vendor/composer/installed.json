@@ -2,28 +2,28 @@
     "packages": [
         {
             "name": "aternos/nbt",
-            "version": "v1.10.0",
-            "version_normalized": "1.10.0.0",
+            "version": "v1.9.0",
+            "version_normalized": "1.9.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/php-nbt.git",
-                "reference": "41106bc58c19e3b6ecbe8a1a6410210ac5b7b808"
+                "reference": "c6b0d1497d899985fc6cc3cd831e45c6b47f98f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/php-nbt/zipball/41106bc58c19e3b6ecbe8a1a6410210ac5b7b808",
-                "reference": "41106bc58c19e3b6ecbe8a1a6410210ac5b7b808",
+                "url": "https://api.github.com/repos/aternosorg/php-nbt/zipball/c6b0d1497d899985fc6cc3cd831e45c6b47f98f8",
+                "reference": "c6b0d1497d899985fc6cc3cd831e45c6b47f98f8",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "ext-zlib": "*",
-                "php": ">=8.1",
+                "php": ">=8.0",
                 "php-64bit": "*",
                 "pocketmine/binaryutils": "^0.2.1"
             },
-            "time": "2023-11-13T12:52:48+00:00",
+            "time": "2023-05-04T17:55:22+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -44,86 +44,31 @@
             "description": "PHP library to parse, modify, and create NBT objects",
             "support": {
                 "issues": "https://github.com/aternosorg/php-nbt/issues",
-                "source": "https://github.com/aternosorg/php-nbt/tree/v1.10.0"
+                "source": "https://github.com/aternosorg/php-nbt/tree/v1.9.0"
             },
             "install-path": "../aternos/nbt"
         },
         {
-            "name": "aternos/taskmaster",
-            "version": "v1.1.3",
-            "version_normalized": "1.1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aternosorg/taskmaster.git",
-                "reference": "f89230a59dadad473dc9ce04ea9ef051d121f356"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/taskmaster/zipball/f89230a59dadad473dc9ce04ea9ef051d121f356",
-                "reference": "f89230a59dadad473dc9ce04ea9ef051d121f356",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.1"
-            },
-            "require-dev": {
-                "phpbench/phpbench": "^1.2",
-                "phpunit/phpunit": "^10.4"
-            },
-            "suggest": {
-                "ext-parallel": "Required for thread workers",
-                "ext-pcntl": "Required for fork workers"
-            },
-            "time": "2024-01-29T10:38:34+00:00",
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Aternos\\Taskmaster\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matthias Neid",
-                    "email": "matthias@aternos.org"
-                }
-            ],
-            "description": "Object-oriented PHP library for running tasks in parallel",
-            "support": {
-                "issues": "https://github.com/aternosorg/taskmaster/issues",
-                "source": "https://github.com/aternosorg/taskmaster/tree/v1.1.3"
-            },
-            "install-path": "../aternos/taskmaster"
-        },
-        {
             "name": "aternos/thanos",
-            "version": "v0.10.1",
-            "version_normalized": "0.10.1.0",
+            "version": "v0.6.0",
+            "version_normalized": "0.6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/thanos.git",
-                "reference": "0146067f773f06e1038b78ca49cda7e5233a1529"
+                "reference": "eb9c0ab793c626e71b7ad6476d022ba236da4b70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/thanos/zipball/0146067f773f06e1038b78ca49cda7e5233a1529",
-                "reference": "0146067f773f06e1038b78ca49cda7e5233a1529",
+                "url": "https://api.github.com/repos/aternosorg/thanos/zipball/eb9c0ab793c626e71b7ad6476d022ba236da4b70",
+                "reference": "eb9c0ab793c626e71b7ad6476d022ba236da4b70",
                 "shasum": ""
             },
             "require": {
-                "aternos/nbt": "^v1.9.0",
-                "aternos/taskmaster": "^1.1.3",
+                "aternos/nbt": "^v1.3.0",
                 "ext-zlib": "*",
-                "php": ">=8.1"
+                "php": "^7.4 || ^8.0"
             },
-            "suggest": {
-                "ext-lz4": "Support for LZ4 compressed chunks (Minecraft 1.20.5+)"
-            },
-            "time": "2024-02-29T11:28:39+00:00",
+            "time": "2022-11-28T12:02:01+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -144,7 +89,7 @@
             "description": "Simple library to detect and remove unused chunks from a Minecraft world.",
             "support": {
                 "issues": "https://github.com/aternosorg/thanos/issues",
-                "source": "https://github.com/aternosorg/thanos/tree/v0.10.1"
+                "source": "https://github.com/aternosorg/thanos/tree/v0.6.0"
             },
             "install-path": "../aternos/thanos"
         },

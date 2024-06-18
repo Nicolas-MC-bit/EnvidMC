@@ -1,5 +1,5 @@
 {
     "require": {
-        "aternos/thanos": "^0.10.1"
+        "aternos/thanos": "^0.6.0"
     }
 }

@@ -35,7 +35,7 @@ abstract class IntValueTag extends Tag
     /**
      * @inheritDoc
      */
-    public function jsonSerialize(): int
+    public function jsonSerialize()
     {
         return $this->value;
     }

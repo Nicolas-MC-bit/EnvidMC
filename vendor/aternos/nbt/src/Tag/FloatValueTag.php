@@ -35,7 +35,7 @@ abstract class FloatValueTag extends Tag
     /**
      * @inheritDoc
      */
-    public function jsonSerialize(): int|float
+    public function jsonSerialize()
     {
         return $this->value;
     }

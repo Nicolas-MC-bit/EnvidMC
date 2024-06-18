@@ -4,27 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5298a03f558d69e4f5eda0ed3927373f",
+    "content-hash": "53ccf409227781ceb2b5db7dfc3ac145",
     "packages": [
         {
             "name": "aternos/nbt",
-            "version": "v1.10.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/php-nbt.git",
-                "reference": "41106bc58c19e3b6ecbe8a1a6410210ac5b7b808"
+                "reference": "692eb120b1a7b71e9c1aa149c4eacb3536cf4223"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/php-nbt/zipball/41106bc58c19e3b6ecbe8a1a6410210ac5b7b808",
-                "reference": "41106bc58c19e3b6ecbe8a1a6410210ac5b7b808",
+                "url": "https://api.github.com/repos/aternosorg/php-nbt/zipball/692eb120b1a7b71e9c1aa149c4eacb3536cf4223",
+                "reference": "692eb120b1a7b71e9c1aa149c4eacb3536cf4223",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "ext-mbstring": "*",
                 "ext-zlib": "*",
-                "php": ">=8.1",
+                "php": "^7.4 || ^8.0",
                 "php-64bit": "*",
                 "pocketmine/binaryutils": "^0.2.1"
             },
@@ -47,70 +46,22 @@
             "description": "PHP library to parse, modify, and create NBT objects",
             "support": {
                 "issues": "https://github.com/aternosorg/php-nbt/issues",
-                "source": "https://github.com/aternosorg/php-nbt/tree/v1.10.0"
+                "source": "https://github.com/aternosorg/php-nbt/tree/v1.3.0"
             },
-            "time": "2023-11-13T12:52:48+00:00"
-        },
-        {
-            "name": "aternos/taskmaster",
-            "version": "v1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aternosorg/taskmaster.git",
-                "reference": "f89230a59dadad473dc9ce04ea9ef051d121f356"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/taskmaster/zipball/f89230a59dadad473dc9ce04ea9ef051d121f356",
-                "reference": "f89230a59dadad473dc9ce04ea9ef051d121f356",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.1"
-            },
-            "require-dev": {
-                "phpbench/phpbench": "^1.2",
-                "phpunit/phpunit": "^10.4"
-            },
-            "suggest": {
-                "ext-parallel": "Required for thread workers",
-                "ext-pcntl": "Required for fork workers"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Aternos\\Taskmaster\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matthias Neid",
-                    "email": "matthias@aternos.org"
-                }
-            ],
-            "description": "Object-oriented PHP library for running tasks in parallel",
-            "support": {
-                "issues": "https://github.com/aternosorg/taskmaster/issues",
-                "source": "https://github.com/aternosorg/taskmaster/tree/v1.1.3"
-            },
-            "time": "2024-01-29T10:38:34+00:00"
+            "time": "2021-11-25T11:41:16+00:00"
         },
         {
             "name": "pocketmine/binaryutils",
-            "version": "0.2.4",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/BinaryUtils.git",
-                "reference": "5ac7eea91afbad8dc498f5ce34ce6297d5e6ea9a"
+                "reference": "f883e1cf9099ed6a757a10a2f75b3333eeb2cdf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/BinaryUtils/zipball/5ac7eea91afbad8dc498f5ce34ce6297d5e6ea9a",
-                "reference": "5ac7eea91afbad8dc498f5ce34ce6297d5e6ea9a",
+                "url": "https://api.github.com/repos/pmmp/BinaryUtils/zipball/f883e1cf9099ed6a757a10a2f75b3333eeb2cdf9",
+                "reference": "f883e1cf9099ed6a757a10a2f75b3333eeb2cdf9",
                 "shasum": ""
             },
             "require": {
@@ -119,10 +70,8 @@
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "1.3.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.0.0",
-                "phpunit/phpunit": "^9.5"
+                "phpstan/phpstan": "0.12.99",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
             },
             "type": "library",
             "autoload": {
@@ -137,9 +86,9 @@
             "description": "Classes and methods for conveniently handling binary data",
             "support": {
                 "issues": "https://github.com/pmmp/BinaryUtils/issues",
-                "source": "https://github.com/pmmp/BinaryUtils/tree/0.2.4"
+                "source": "https://github.com/pmmp/BinaryUtils/tree/0.2.2"
             },
-            "time": "2022-01-12T18:06:33+00:00"
+            "time": "2021-10-22T19:54:16+00:00"
         }
     ],
     "packages-dev": [],
@@ -149,9 +98,9 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.1",
+        "php": "^7.4 || ^8.0",
         "ext-zlib": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }

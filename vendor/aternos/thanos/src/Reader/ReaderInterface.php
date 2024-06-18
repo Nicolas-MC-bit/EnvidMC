@@ -43,9 +43,4 @@ interface ReaderInterface
      * @return bool
      */
     public function eof(): bool;
-
-    /**
-     * @return void
-     */
-    public function reset(): void;
 }

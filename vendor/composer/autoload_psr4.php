@@ -8,6 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'pocketmine\\utils\\' => array($vendorDir . '/pocketmine/binaryutils/src'),
     'Aternos\\Thanos\\' => array($vendorDir . '/aternos/thanos/src'),
-    'Aternos\\Taskmaster\\' => array($vendorDir . '/aternos/taskmaster/src'),
     'Aternos\\Nbt\\' => array($vendorDir . '/aternos/nbt/src'),
 );

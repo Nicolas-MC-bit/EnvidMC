@@ -81,7 +81,7 @@ class StringTag extends Tag
     /**
      * @inheritDoc
      */
-    public function jsonSerialize(): string
+    public function jsonSerialize()
     {
         return $this->value;
     }

@@ -71,9 +71,4 @@ interface ChunkInterface
      * @return bool
      */
     public function isSaved(): bool;
-
-    /**
-     * @return void
-     */
-    public function close(): void;
 }

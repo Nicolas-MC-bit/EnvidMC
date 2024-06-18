@@ -24,14 +24,14 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+ you can use hex color codes here as well. (For example, #613e1d is brown).
-ops-name-color: '4'
+ops-name-color: ''
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 # Users with essentials.nick.hideprefix will not be prefixed with the character(s)
-nickname-prefix: '~'
+nickname-prefix: ''
 
 # The maximum length allowed in nicknames. The nickname prefix is not included in this.
-max-nick-length: 15
+max-nick-length: 15000
 
 # A list of phrases that cannot be used in nicknames. You can include regular expressions here.
 # Users with essentials.nick.blacklist.bypass will be able to bypass this filter.
@@ -339,7 +339,7 @@ use-bukkit-permissions: true
 skip-used-one-time-kits-from-kit-list: false
 
 # When enabled, armor from kits will automatically be equipped as long as the player's armor slots are empty.
-kit-auto-equip: false
+kit-auto-equip: true
 
 # Determines the functionality of the /createkit command.
 # If this is true, /createkit will give the user a link with the kit code.
@@ -430,7 +430,7 @@ per-warp-permission: false
 list:
     # To merge groups, list the groups you wish to merge
     #Staff: owner admin moderator
-    Admins: owner admin
+    Admins: dueño subdueño admin manager config
     # To limit groups, set a max user limit
     #builder: 20
     # To hide groups, set the group as hidden
@@ -439,7 +439,7 @@ list:
     #Players: '*'
 
 # Displays real names in /list next to players who are using a nickname.
-real-names-on-list: false
+real-names-on-list: true
 
 # More output to the console.
 debug: false
@@ -515,7 +515,7 @@ sleep-ignores-vanished-player: true
 # Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-afk-list-name: "none"
+afk-list-name: "{PLAYER} &7Esta &4&lAFK"
 
 # When a player enters or exits AFK mode, should the AFK notification be broadcast
 # to the entire server, or just to the player?
@@ -835,7 +835,7 @@ currency-symbol-suffix: false
 
 # Set the maximum amount of money a player can have.
 # The amount is always limited to 10 trillion because of the limitations of a java double.
-max-money: 10000000000000
+max-money: 1000000000000000000000000000000000000000000000000000000000000000000000000
 
 # Set the minimum amount of money a player can have (must be above the negative of max-money).
 # Setting this to 0, will disable overdrafts/loans completely.  Users need 'essentials.eco.loan' perm to go below 0.
@@ -925,7 +925,7 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
+  format: '&8[&60&8] &f{DISPLAYNAME} &8&l» &7{MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
@@ -1162,7 +1162,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: '&8[&6&lEnvid&e&lMC&8] &7Bienvenido al Survival {DISPLAYNAME} &7Disfruta...'
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
@@ -1171,7 +1171,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  kit: tools
+  kit: miembro
 
 # What priority should we use for handling respawns?
 # Set this to none, if you want vanilla respawning behaviour.
