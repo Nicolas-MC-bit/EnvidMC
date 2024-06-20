@@ -1,0 +1,30 @@
+# Default time in ticks for a score to stay on the scoreboard (20 ticks = 1 second)
+language: en
+checkForUpdates: true
+asyncPlaceholders: true
+worlds:
+  world:
+  - example
+  Terra:
+  - survival
+version: 3
+storage:
+  driver: h2
+  tablePrefix: simplescore_
+  address: 127.0.0.1:3306
+  database: minecraft
+  username: simplescore
+  password: '|D/-\55\^/0|2|)'
+  pool:
+    maximumPoolSize: 8
+    minimumIdle: 8
+    maxLifetime: 1800000
+    keepaliveTime: 0
+    connectionTimeout: 5000
+    extraProperties:
+      useUnicode: true
+      characterEncoding: utf8
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

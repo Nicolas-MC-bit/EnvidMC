@@ -1,0 +1,16 @@
+# 
+# This is where you specify conditions to be used on scoreboards and scores.
+# 
+# You can create a condition by creating a node with the condition name and
+# then specifying the "type" and the required attributes for that type.
+hasPermissionExample:
+  type: HAS_PERMISSION
+  permission: simplescore.example.condition
+equalsOperationExample:
+  type: EQUALS
+  input: '%world%'
+  value: world_the_end
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

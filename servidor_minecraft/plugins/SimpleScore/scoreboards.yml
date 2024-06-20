@@ -1,0 +1,128 @@
+#
+# This is where you create your scoreboards to be displayed.
+#
+# You can create a scoreboard by creating a node with the scoreboard name and
+# then specifying a default "updateTime" and a list of "titles" and "scores".
+simple:
+  titles: '&7&LYour&6&lServer'
+  scores:
+    '13':
+    - '&7&m+----------------+'
+    - '&7&m------------------'
+    '12': '&7» &6&lPlayer'
+    '11': '    &7%player%'
+    '10': ''
+    '9': '&7» &6&lHealth'
+    '8': '    %hearts%'
+    '7': ''
+    '6': '&7» &6&lWorld'
+    '5': '    &7%world%'
+    '4': ''
+    '3': '&7» &6&lOnline Players'
+    '2': '    &7%online% &6players'
+    '1':
+    - '&7&m+----------------+'
+    - '&7&m------------------'
+customTiming:
+  updateTime: 100
+  titles:
+  - text: '&c200 ticks/10 seconds title'
+    update: 200
+  - text: '&a100 ticks/5 seconds title'
+  scores:
+    '6': '&7You can set a per title and score time'
+    '5': '&7instead of using the default value'
+    '4': ''
+    '3':
+    - text: '&7This will last for &810 seconds'
+      update: 200
+    - text: '&7while this only lasts for &85 seconds'
+    '2': ''
+    '1':
+    - text: '&6Your current world is &7%world%&6.'
+      update: 60
+    - text: '&6There are &7%online% &6players online.'
+      update: 60
+conditional:
+  updateTime: 60
+  conditions:
+  - hasPermissionExample
+  titles: '&cRestricted Scoreboard'
+  scores:
+    '9': ''
+    '8': '&7Scoreboards with a list of conditions require'
+    '7': '&7that the player passes all of them.'
+    '6': ''
+    '5': '&7You can see this scoreboard because you'
+    '4': '&7passed the &8hasPermissionExample &7condition.'
+    '3':
+      conditions:
+      - equalsOperationExample
+      frames: ''
+    '2':
+      conditions:
+      - equalsOperationExample
+      frames:
+      - '&7You can see this line because you passed..'
+      - '&7the &8equalsOperationExample &7condition.'
+    '1': ''
+survival:
+  updateTime: 900
+  titles:
+  - text: '&b&lSURVIVAL &7(1.0)'
+    update: 4
+  scores:
+    '11':
+    - '   &7%server_time_dd.MM.yyyy% %server_time_HH:mm%'
+    '10':
+    - ''
+    '9':
+    - ' &f㊙ &fName: &a%player_name%'
+    '8':
+    - ''
+    '7':
+    - ' &fKills: &c%statistic_player_kills%'
+    '6':
+    - ' &fDeaths: &c%statistic_deaths%'
+    '5':
+    - ''
+    '4':
+    - ' &f &fMarry: %javascript_example3%'
+    '3':
+    - ' &f🀄 &fPing: &a%player_ping% ms'
+    '2':
+    - ''
+    '1':
+    - '&emc.example.net    '
+example:
+  updateTime: 900
+  titles:
+  - text: '&b&lSURVIVAL &7(1.0)'
+    update: 4
+  scores:
+    '11':
+    - '   &7%server_time_dd.MM.yyyy% %server_time_HH:mm%'
+    '10':
+    - ''
+    '9':
+    - ' &f㊙ &fName: &a%player_name%'
+    '8':
+    - ''
+    '7':
+    - ' &fSpawn: &7%player_compass_x%, %player_compass_z%'
+    '6':
+    - ' &fLocation:'
+    '5':
+    - '    &f🃏 %javascript_region%'
+    '4':
+    - ''
+    '3':
+    - ' &f🀄 &fPing: &a%player_ping% ms'
+    '2':
+    - ''
+    '1':
+    - '&emc.example.net    '
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

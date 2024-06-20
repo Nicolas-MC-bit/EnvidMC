@@ -1,0 +1,88 @@
+help:
+  lines:
+  - '&f'
+  - '&b&lDo you need help?'
+  - '&e(Right Click)'
+  - '&f¡I can help you!'
+  - '&f'
+  position:
+    world: world
+    x: 86.593
+    y: 47.43
+    z: 21.614
+help2:
+  lines:
+  - '&f'
+  - '&b&lDo you need help?'
+  - '&e(Right Click)'
+  - '&f¡I can help you!'
+  - '&f'
+  position:
+    world: world
+    x: 32.471
+    y: 47.43
+    z: 51.501
+minerals:
+  lines:
+  - '&f &8| &b&lMinerals'
+  - '&e(Right Click)'
+  - '&f¡Buy and sell your Minerals!'
+  - '&f'
+  position:
+    world: world
+    x: 100.699
+    y: 47.203
+    z: 29.388
+blocks:
+  lines:
+  - ' &f &8| &b&lBuilder'
+  - '&e(Right Click)'
+  - '&f¡Buy and sell your Blocks!'
+  - '&r'
+  position:
+    world: world
+    x: 18.539
+    y: 47.036
+    z: 15.469
+food:
+  lines:
+  - ' &f &8| &b&lFood'
+  - '&e(Right Click)'
+  - '&f¡Buy and sell your Food!'
+  - '&r'
+  position:
+    world: world
+    x: 62.481
+    y: 47.1
+    z: 39.3
+redstone:
+  lines:
+  - ' &f &8| &b&lRedstone'
+  - '&e(Right Click)'
+  - '&f¡Redstone Components!'
+  - '&r'
+  position:
+    world: world
+    x: 51.615
+    y: 46.12
+    z: -22.302
+bee:
+  lines:
+  - '&e[NPC] &FCute Bee'
+  position:
+    world: world
+    x: 124.593
+    y: 46.338
+    z: 5.412
+bee2:
+  lines:
+  - '&e[NPC] &fCute Bee'
+  position:
+    world: world
+    x: 64.377
+    y: 46.322
+    z: 6.604
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

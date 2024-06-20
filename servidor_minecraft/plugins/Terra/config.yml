@@ -1,0 +1,15 @@
+debug: false
+data-save: PT6M
+language: "en_us"
+dump-default: true
+biome-search-resolution: 4
+cache:
+  carver: 512
+  structure: 32
+  sampler: 128
+  biome-provider: 32
+script:
+  max-recursion: 1000
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

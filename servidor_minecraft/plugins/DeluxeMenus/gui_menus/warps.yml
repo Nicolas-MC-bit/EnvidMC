@@ -1,0 +1,273 @@
+menu_title: '&8» Shop - Blocks'
+size: 54
+open_command:
+- warps
+- warp
+- essentials:warps
+- essentials:warp
+items:
+  '10':
+    material: head-%player_name%
+    amount: 1
+    slot: 4
+    display_name: "&e%player_name%"
+    lore:
+    - '&8| Player Profile'
+    - ""
+    - ' &fRank: %javascript_example%'
+    - ' &fCoins: &f%vault_eco_balance_formatted% &f '
+    - ' &fTime Played: &b%statistic_hours_played%h'
+    - ' &fFirst Join: &a%player_first_join_date% '
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_CAT_AMBIENT 1 1'
+    right_click_commands:
+    - '[sound] ENTITY_CAT_AMBIENT 1 1'
+  '70':
+    material: REPEATER
+    amount: 1
+    slot: 20
+    display_name: "&bRedstone Shop"
+    lore:
+    - '&8| Warp Redstone Shop '
+    - ""
+    - "&7¡Get all about redstone!"
+    - ""
+    - ' &8▪ &f&oA store dedicated only to '
+    - "&f&oredstone materials."
+    - ""
+    - '&e¡Click to teleport!'
+    left_click_commands:
+    - '[sound] BLOCK_LEVER_CLICK 1 2'       
+    - '[close]'
+    - '[player] warp redstone'
+    - '[console] tm message %player_name% &b&lRedstone Shop\n&f¡Redstone Components! &f' 
+    right_click_commands:
+    - '[player] warp redstone'
+    - '[close]'  
+    - '[console] tm message %player_name% &b&lRedstone Shop\n&f¡Redstone Components! &f'    
+    - '[sound] BLOCK_LEVER_CLICK 1 2'
+  '71':
+    material: DIAMOND_ORE
+    amount: 1
+    slot: 21
+    display_name: "&bMinerals Shop "
+    lore:
+    - '&8| Warp Minerals Shop '
+    - ""
+    - "&7¡Buy and sell your Minerals!"
+    - ""
+    - ' &8▪ &f&oCome sell your minerals   '
+    - "&f&othat you have collected."
+    - ""
+    - '&e¡Click to teleport!'
+    left_click_commands:
+    - '[player] warp minerals'
+    - '[close]'
+    - '[console] tm message %player_name% &b&lMinerals Shop\n&f¡Sell and buy Minerals! &f'    
+    - '[sound] BLOCK_LEVER_CLICK 1 2' 
+    right_click_commands:
+    - '[player] warp minerals'
+    - '[close]'
+    - '[console] tm message %player_name% &b&lMinerals Shop\n&f¡Sell and buy Minerals! &f'    
+    - '[sound] BLOCK_LEVER_CLICK 1 2'    
+  '72':
+    material: OAK_LOG
+    amount: 1
+    slot: 22
+    display_name: "&bBuilder Shop "
+    lore:
+    - '&8| Warp Builder Shop '
+    - ""
+    - "&7You need blocks?"
+    - ""
+    - ' &8▪ &f&oCome and buy blocks for  '
+    - "&f&oyour buildings."
+    - ""
+    - '&e¡Click to teleport!'
+    left_click_commands:
+    - '[player] warp builder'
+    - '[close]'
+    - '[console] tm message %player_name% &b&lBuilder Shop\n&f&fYou need blocks? &f'    
+    - '[sound] BLOCK_LEVER_CLICK 1 2'   
+    right_click_commands:
+    - '[player] warp builder'
+    - '[close]'
+    - '[console] tm message %player_name% &b&lBuilder Shop\n&f&fYou need blocks? &f'    
+    - '[sound] BLOCK_LEVER_CLICK 1 2'      
+  '73':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk3NTIwZTdiNTMxZThiNTYxZWE4ZTg2ZGZkZDkxYTcyYmY5ODMyYmJhZDk0ZTkyMDUxMTQ3ZmU1ZTc3YmZlIn19fQ=='
+    amount: 1
+    slot: 23
+    display_name: "&bPortal Warp "
+    lore:
+    - '&8| Warp Portal '
+    - ""
+    - "&7¡Start your adventure!"
+    - ""
+    - ' &8▪ &f&oStart playing survival  '
+    - " &f&oin a custom world.            "
+    - ""
+    - '&e¡Click to teleport!'
+    left_click_commands:
+    - '[player] warp portal'
+    - '[close]'
+    - '[console] tm message %player_name% &b&lPortal Warp\n&f¡Start your Adventure! '    
+    - '[sound] BLOCK_LEVER_CLICK 1 2'   
+    right_click_commands:
+    - '[player] warp portal'
+    - '[close]'
+    - '[console] tm message %player_name% &b&lPortal Warp\n&f¡Start your Adventure! '    
+    - '[sound] BLOCK_LEVER_CLICK 1 2'    
+  '74':
+    material: COOKED_BEEF
+    amount: 1
+    slot: 24
+    display_name: "&bFood Shop "
+    lore:
+    - '&8| Warp Food Shop  '
+    - ""
+    - "&7You are hungry?"
+    - ""
+    - ' &8▪ &f&oCome and buy food for  '
+    - " &f&oyour survival trip.            "
+    - ""
+    - '&e¡Click to teleport!'
+    left_click_commands:
+    - '[player] warp food'
+    - '[close]'
+    - '[console] tm message %player_name% &b&lFood Shop\n&fYou are hungry?  '    
+    - '[sound] BLOCK_LEVER_CLICK 1 2'   
+    right_click_commands:
+    - '[player] warp food'
+    - '[close]'
+    - '[console] tm message %player_name% &b&lFood Shop\n&fYou are hungry?  '    
+    - '[sound] BLOCK_LEVER_CLICK 1 2'     
+  '76':
+    material: RED_STAINED_GLASS_PANE
+    amount: 1
+    slots:
+       - 29
+       - 30
+       - 31
+       - 32
+       - 33
+    display_name: "&cComing Soon..."
+    left_click_commands:
+    - '[sound] ENTITY_VILLAGER_NO'    
+    right_click_commands:  
+    - '[sound] ENTITY_VILLAGER_NO'       
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 0
+    display_name: '&7'
+  '1':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    display_name: '&7'
+  '2':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 2
+    display_name: '&7'
+  '3':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 3
+    display_name: '&7'
+  '5':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 5
+    display_name: '&7'
+  '6':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 6
+    display_name: '&7'
+  '7':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    display_name: '&7'
+  '8':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 8
+    display_name: '&7'
+  '9':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 9
+    display_name: '&7'
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&cClose Warps Menu'
+    model_data: 1
+    lore:
+    - '&eClick to close warp menu!'
+    left_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_LEVER_CLICK 1 2'
+    right_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_LEVER_CLICK 1 2'    
+  '35':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 35
+    display_name: '&7'
+  '36':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 36
+    display_name: '&7'    
+  '26':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 26
+    display_name: '&7'
+  '27':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 27
+    display_name: '&7'    
+  '17':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 17
+    display_name: '&7'
+  '18':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 18
+    display_name: '&7'    
+  '44':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 44
+    display_name: '&7'
+  '45':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 45
+    display_name: '&7'
+  '46':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 46
+    display_name: '&7'
+  '47':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 47
+    display_name: '&7'
+  '48':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 48
+    display_name: '&7'  
+  '50':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 50
+    display_name: '&7'
+  '51':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 51
+    display_name: '&7'
+  '52':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 52
+    display_name: '&7'
+  '53':
+    material: MAP
+    slot: 53
+    model_data: 34
+    display_name: "&r "
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

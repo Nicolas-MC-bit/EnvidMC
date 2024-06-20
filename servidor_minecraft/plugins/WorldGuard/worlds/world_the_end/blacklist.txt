@@ -60,3 +60,7 @@
 #[coal_ore,gold_ore,iron_ore]
 #ignore-groups=admins,mods
 #on-break=notify,deny,log
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

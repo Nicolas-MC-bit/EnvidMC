@@ -1,0 +1,17 @@
+#
+# This is the configuration file for static placeholders.
+# Dynamic placeholders are {online}, {max_players}, ...
+# Static placeholders are symbols.
+#
+# List of unicode symbols: http://www.fileformat.info/info/unicode/index.htm
+#
+[x]: \u2588
+[/]: \u258C
+[.]: \u2591
+[..]: \u2592
+[...]: \u2593
+[p]: \u2022
+[|]: \u23B9
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

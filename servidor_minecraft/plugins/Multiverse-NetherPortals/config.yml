@@ -1,0 +1,12 @@
+bounceback: true
+worlds:
+  Terra:
+    portalgoesto:
+      NETHER: world_nether
+  world_nether:
+    portalgoesto:
+      NETHER: Terra
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

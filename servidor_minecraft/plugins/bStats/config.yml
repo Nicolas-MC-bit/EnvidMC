@@ -2,7 +2,10 @@
 # To honor their work, you should not disable it.
 # This has nearly no effect on the server performance!
 # Check out https://bStats.org/ to learn more :)
-
 enabled: true
-serverUuid: d34753ea-10a9-4d23-bd4e-586303324bef
+serverUuid: 5dafe088-dc66-4d35-ada2-c82bff00ce4d
 logFailedRequests: false
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

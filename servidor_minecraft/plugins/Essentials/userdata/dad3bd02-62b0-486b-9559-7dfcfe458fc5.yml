@@ -1,0 +1,51 @@
+timestamps:
+  login: 1680060523127
+  logout: 1680060655041
+  lastteleport: 1662683481791
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+logoutlocation:
+  world: 0f9930ad-5e83-4816-b14a-9107821ff965
+  x: 86.26110198592598
+  y: 72.0
+  z: -289.9933849934924
+  yaw: -142.76446533203125
+  pitch: -0.14999176561832428
+  world-name: Terra
+money: '12250.0'
+lastlocation:
+  world: 21af1eef-f9ea-4c89-bf29-4c2123a79f78
+  x: 102.62601688001267
+  y: 73.0
+  z: 905.1750914176838
+  yaw: 178.29788208007812
+  pitch: 23.6382999420166
+  world-name: Terra
+homes:
+  home:
+    world: 0f9930ad-5e83-4816-b14a-9107821ff965
+    x: -766.6325124827481
+    y: 65.0
+    z: -631.406191090784
+    yaw: -86.60450744628906
+    pitch: -3.696074962615967
+    world-name: Terra
+ip-address: 127.0.0.1
+last-account-name: Maazapan
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

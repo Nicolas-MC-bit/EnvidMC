@@ -1,0 +1,1075 @@
+menu_title: '&8Food'
+size: 54
+open_command:
+- chef
+items:
+  '10':
+    material: cooked_chicken
+    amount: 8
+    slot: 11
+    display_name: "&fCooked Chicken &ax8"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_CHICKEN
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% cooked_chicken 8'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% cooked_chicken 8'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '11':
+    material: cooked_rabbit
+    amount: 8
+    slot: 12
+    display_name: "&fCooked Rabbit &ax8"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_RABBIT
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% cooked_rabbit 8'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% cooked_rabbit 8'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'    
+  '12':
+    material: cooked_mutton
+    amount: 8
+    slot: 13
+    display_name: "&fCooked Mutton &ax8"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f170.0 &f'
+    - ' &7Sell for: &f70.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 170
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_MUTTON
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% cooked_mutton 8'
+    - '[takemoney] 170.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% cooked_mutton 8'
+    - '[givemoney] 70.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'   
+  '13':
+    material: cooked_beef
+    amount: 8
+    slot: 14
+    display_name: "&fCooked Beef &ax8"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f210.0 &f'
+    - ' &7Sell for: &f110.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 210
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_MUTTON
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% cooked_beef 8'
+    - '[takemoney] 210.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% cooked_beef 8'
+    - '[givemoney] 110.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'   
+  '14':
+    material: cooked_cod
+    amount: 8
+    slot: 15
+    display_name: "&fCooked Cod &ax8"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f130.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 130
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_COD
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% cooked_cod 8'
+    - '[takemoney] 130.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% cooked_cod 8'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'    
+  '15':
+    material: chicken
+    amount: 16
+    slot: 20
+    display_name: "&fChicken &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f140.0 &f'
+    - ' &7Sell for: &f90.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 140
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: CHICKEN
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% chicken 16'
+    - '[takemoney] 140.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% chicken 16'
+    - '[givemoney] 90.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+  '16':
+    material: rabbit
+    amount: 16
+    slot: 21
+    display_name: "&fRabbit &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f140.0 &f'
+    - ' &7Sell for: &f90.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 140
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: RABBIT
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% rabbit 16'
+    - '[takemoney] 140.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% rabbit 16'
+    - '[givemoney] 90.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+  '17':
+    material: mutton
+    amount: 16
+    slot: 22
+    display_name: "&fMutton &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f140.0 &f'
+    - ' &7Sell for: &f90.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 140
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: MUTTON
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% mutton 16'
+    - '[takemoney] 140.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% mutton 16'
+    - '[givemoney] 90.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+  '18':
+    material: beef
+    amount: 16
+    slot: 23
+    display_name: "&fBeef &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f140.0 &f'
+    - ' &7Sell for: &f90.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 140
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BEEF
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% beef 16'
+    - '[takemoney] 140.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% beef 16'
+    - '[givemoney] 90.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'    
+  '19':
+    material: cod
+    amount: 16
+    slot: 24
+    display_name: "&fCod &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f140.0 &f'
+    - ' &7Sell for: &f90.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 140
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COD
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% cod 16'
+    - '[takemoney] 140.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% cod 16'
+    - '[givemoney] 90.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+  '20':
+    material: potato
+    amount: 6
+    slot: 28
+    display_name: "&fPotato &ax6"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f360.0 &f'
+    - ' &7Sell for: &f130.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 360
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: POTATO
+          amount: 6
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% potato 6'
+    - '[takemoney] 360.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% potato 6'
+    - '[givemoney] 130.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'         
+  '21':
+    material: SWEET_BERRIES
+    amount: 16
+    slot: 29
+    display_name: "&fSweet Berries &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f140.0 &f'
+    - ' &7Sell for: &f30.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 140
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: SWEET_BERRIES
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% sweet_berries 16'
+    - '[takemoney] 140.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% sweet_berries 16'
+    - '[givemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'        
+  '22':
+    material: COCOA_BEANS
+    amount: 4
+    slot: 30
+    display_name: "&fCocoa Beans &ax4"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f140.0 &f'
+    - ' &7Sell for: &f30.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 140
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COCOA_BEANS
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% cocoa_beans 4'
+    - '[takemoney] 140.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% cocoa_beans 4'
+    - '[givemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+  '23':
+    material: PUMPKIN_SEEDS
+    amount: 4
+    slot: 31
+    display_name: "&fPumpkin Seeds &ax4"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f140.0 &f'
+    - ' &7Sell for: &f30.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 140
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: PUMPKIN_SEEDS
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% pumpkin_seeds 4'
+    - '[takemoney] 140.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% pumpkin_seeds 4'
+    - '[givemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'        
+  '24':
+    material: MELON_SEEDS
+    amount: 4
+    slot: 32
+    display_name: "&fMelon Seeds &ax4"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f140.0 &f'
+    - ' &7Sell for: &f30.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 140
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: MELON_SEEDS
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% melon_seeds 4'
+    - '[takemoney] 140.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% melon_seeds 4'
+    - '[givemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2' 
+  '25':
+    material: NETHER_WART
+    amount: 2
+    slot: 33
+    display_name: "&fNether Wart &ax2"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f440.0 &f'
+    - ' &7Sell for: &f20.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 440
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: NETHER_WART
+          amount: 2
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% nether_wart 2'
+    - '[takemoney] 440.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% nether_wart 2'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'      
+  '26':
+    material: WHEAT_SEEDS
+    amount: 16
+    slot: 34
+    display_name: "&fWheat Seeds &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f240.0 &f'
+    - ' &7Sell for: &f95.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 240
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: WHEAT_SEEDS
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% wheat_seeds 16'
+    - '[takemoney] 240.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% wheat_seeds 16'
+    - '[givemoney] 95.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '27':
+    material: BEETROOT
+    amount: 16
+    slot: 37
+    display_name: "&fBeetRoot &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f240.0 &f'
+    - ' &7Sell for: &f95.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 240
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BEETROOT
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% beetroot 16'
+    - '[takemoney] 240.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% beetroot 16'
+    - '[givemoney] 95.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'    
+  '28':
+    material: SUGAR_CANE
+    amount: 16
+    slot: 38
+    display_name: "&fSugar Cane &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f240.0 &f'
+    - ' &7Sell for: &f95.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 240
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: SUGAR_CANE
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% sugar_cane 16'
+    - '[takemoney] 240.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% sugar_cane 16'
+    - '[givemoney] 95.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'      
+  '29':
+    material: CACTUS
+    amount: 10
+    slot: 39
+    display_name: "&fCactus &ax10"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f320.0 &f'
+    - ' &7Sell for: &f135.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 320
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: CACTUS
+          amount: 10
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% cactus 10'
+    - '[takemoney] 320.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% cactus 10'
+    - '[givemoney] 135.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'    
+  '30':
+    material: BEETROOT_SEEDS
+    amount: 8
+    slot: 40
+    display_name: "&fBeetRoot Seeds &ax8"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f350.0 &f'
+    - ' &7Sell for: &f10.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 350
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BEETROOT_SEEDS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% beetroot_seeds 8'
+    - '[takemoney] 350.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% beetroot_seeds 8'
+    - '[givemoney] 20.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'    
+  '31':
+    material: EGG
+    amount: 16
+    slot: 41
+    display_name: "&fEgg &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f350.0 &f'
+    - ' &7Sell for: &f10.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 350
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: EGG
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% egg 16'
+    - '[takemoney] 350.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% egg 16'
+    - '[givemoney] 20.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'    
+  '32':
+    material: KELP
+    amount: 3
+    slot: 42
+    display_name: "&fKelp &ax3"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f380.0 &f'
+    - ' &7Sell for: &f20.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 380
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: KELP
+          amount: 3
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% kelp 3'
+    - '[takemoney] 380.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% kelp 3'
+    - '[givemoney] 20.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'      
+  '33':
+    material: BONE_MEAL
+    amount: 16
+    slot: 43
+    display_name: "&fBone Meal &ax16"
+    lore:
+    - ' &8| Food Shop '
+    - "&7"
+    - ' &7Buy food: &f300.0 &f'
+    - ' &7Sell for: &f10.0 &f'
+    - '&7'
+    - '&e¡Left click buy food!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 300
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BONE_MEAL
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% bone_meal 16'
+    - '[takemoney] 300.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% bone_meal 16'
+    - '[givemoney] 10.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'           
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: 
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 45
+      - 46
+      - 47
+      - 49
+      - 51
+      - 52
+     
+    display_name: '&7'
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&cClose Food Shop'
+    model_data: 1    
+    lore:
+    - '&eClick to close food!'
+    left_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_LEVER_CLICK 1 2'
+    right_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_LEVER_CLICK 1 2'
+  '53':
+    material: MAP
+    slot: 53
+    model_data: 31
+    display_name: "&r "
+    
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

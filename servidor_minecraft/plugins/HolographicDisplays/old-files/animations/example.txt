@@ -1,0 +1,9 @@
+Speed: 0.5
+This is an example.
+This line will change every 0.5 seconds...
+because it's an animation.
+You just have to put "{animation: example.txt}" in a hologram...
+to see this animated text.
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

@@ -1,0 +1,536 @@
+menu_title: '&8Minerals'
+size: 54
+open_command:
+- minerals
+items:
+  '1':
+    material: COAL
+    amount: 4
+    slot: 20
+    display_name: "&fCoal &ax4"
+    lore:
+    - ' &8| Minerals Shop '
+    - "&7"
+    - ' &7Buy mineral: &f550.0 &f'
+    - ' &7Sell for: &f120.0 &f'
+    - '&7'
+    - '&e¡Left click buy minerals!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 550
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COAL
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% COAL 4'
+    - '[takemoney] 550.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% COAL 4'
+    - '[givemoney] 120.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+    
+  '2222':
+    material: IRON_INGOT
+    amount: 4
+    slot: 21
+    display_name: "&fIron Ingot &ax4"
+    lore:
+    - ' &8| Minerals Shop '
+    - "&7"
+    - ' &7Buy mineral: &f550.0 &f'
+    - ' &7Sell for: &f180.0 &f'
+    - '&7'
+    - '&e¡Left click buy minerals!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 550
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: IRON_INGOT
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% IRON_INGOT 4'
+    - '[takemoney] 550.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% IRON_INGOT 4'
+    - '[givemoney] 180.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+
+  '2':
+    material: GOLD_INGOT
+    amount: 4
+    slot: 22
+    display_name: "&fGold Ingot &ax4"
+    lore:
+    - ' &8| Minerals Shop '
+    - "&7"
+    - ' &7Buy mineral: &f550.0 &f'
+    - ' &7Sell for: &f190.0 &f'
+    - '&7'
+    - '&e¡Left click buy minerals!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 550
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: GOLD_INGOT
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% GOLD_INGOT 4'
+    - '[takemoney] 550.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% GOLD_INGOT 4'
+    - '[givemoney] 190.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'          
+    
+    
+  '3':
+    material: DIAMOND
+    amount: 2
+    slot: 23
+    display_name: "&fDiamond &ax2"
+    lore:
+    - ' &8| Minerals Shop '
+    - "&7"
+    - ' &7Buy mineral: &f1.7k &f'
+    - ' &7Sell for: &f600.0 &f'
+    - '&7'
+    - '&e¡Left click buy minerals!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 1700
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: DIAMOND
+          amount: 2
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% DIAMOND 2'
+    - '[takemoney] 1700.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% DIAMOND 2'
+    - '[givemoney] 600.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'      
+ 
+
+  '4':
+    material: EMERALD
+    amount: 2
+    slot: 24
+    display_name: "&fEmerald &ax2"
+    lore:
+    - ' &8| Minerals Shop '
+    - "&7"
+    - ' &7Buy mineral: &f2.0k &f'
+    - ' &7Sell for: &f800.0 &f'
+    - '&7'
+    - '&e¡Left click buy minerals!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 2000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: EMERALD
+          amount: 2
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% EMERALD 2'
+    - '[takemoney] 2000.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% EMERALD 2'
+    - '[givemoney] 800.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+    
+  '6':
+    material: LAPIS_LAZULI
+    amount: 16
+    slot: 30
+    display_name: "&fLapis Lazuli &ax16"
+    lore:
+    - ' &8| Minerals Shop '
+    - "&7"
+    - ' &7Buy mineral: &f600.0 &f'
+    - ' &7Sell for: &f100.0 &f'
+    - '&7'
+    - '&e¡Left click buy minerals!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 600
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: LAPIS_LAZULI
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% LAPIS_LAZULI 16'
+    - '[takemoney] 600.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% LAPIS_LAZULI 16'
+    - '[givemoney] 100.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+        
+ 
+  '7':
+    material: NETHERITE_SCRAP
+    amount: 1
+    slot: 31
+    display_name: "&fNetherite Scrap &ax1"
+    lore:
+    - ' &8| Minerals Shop '
+    - "&7"
+    - ' &7Buy mineral: &f3k &f'
+    - ' &7Sell for: &f1k &f'
+    - '&7'
+    - '&e¡Left click buy minerals!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 3000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: NETHERITE_SCRAP
+          amount: 1
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% NETHERITE_SCRAP 1'
+    - '[takemoney] 3000.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% NETHERITE_SCRAP 1'
+    - '[givemoney] 1000.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'   
+    
+  '8':
+    material: REDSTONE
+    amount: 16
+    slot: 32
+    display_name: "&fRedstone &ax16"
+    lore:
+    - ' &8| Minerals Shop '
+    - "&7"
+    - ' &7Buy mineral: &f600.0 &f'
+    - ' &7Sell for: &f100.0 &f'
+    - '&7'
+    - '&e¡Left click buy minerals!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 600
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: REDSTONE
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% REDSTONE 16'
+    - '[takemoney] 600.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% REDSTONE 16'
+    - '[givemoney] 100.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  '53':
+    material: MAP
+    slot: 53
+    model_data: 32
+    display_name: "&r "
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: 
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 45
+      - 46
+      - 47
+      - 49
+      - 51
+      - 52
+     
+    display_name: '&7'
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&cClose Food Shop'
+    model_data: 1    
+    lore:
+    - '&eClick to close food!'
+    left_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_LEVER_CLICK 1 2'
+    right_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_LEVER_CLICK 1 2'
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

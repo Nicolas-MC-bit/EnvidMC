@@ -154,25 +154,15 @@ data:
       #verifyServerCertificate: false
 
   # The prefix for all LuckPerms SQL tables.
-  #
-  # - This only applies for remote SQL storage types (MySQL, MariaDB, etc).
   # - Change this if you want to use different tables for different servers.
   table-prefix: 'luckperms_'
 
-  # The prefix to use for all LuckPerms MongoDB collections.
-  #
-  # - This only applies for the MongoDB storage type.
-  # - Change this if you want to use different collections for different servers. The default is no
-  # prefix.
+  # The prefix to use for all LuckPerms collections. Change this if you want to use different
+  # collections for different servers. The default is no prefix.
   mongodb-collection-prefix: ''
 
-  # The connection string URI to use to connect to the MongoDB instance.
-  #
-  # - When configured, this setting will override anything defined in the address, database,
-  #   username or password fields above.
-  # - If you have a connection string that starts with 'mongodb://' or 'mongodb+srv://', enter it
-  #   below.
-  # - For more information, please see https://docs.mongodb.com/manual/reference/connection-string/
+  # MongoDB ClientConnectionURI for use with replica sets and custom connection options
+  # - See https://docs.mongodb.com/manual/reference/connection-string/
   mongodb-connection-uri: ''
 
 # Define settings for a "split" storage setup.
@@ -262,7 +252,6 @@ broadcast-received-log-entries: true
 redis:
   enabled: false
   address: localhost
-  username: ''
   password: ''
 
 # Settings for RabbitMQ.
@@ -551,13 +540,6 @@ apply-bukkit-attachment-permissions: true
 # | Extra settings                                                                               | #
 # +----------------------------------------------------------------------------------------------+ #
 
-# A list of context calculators which will be skipped when calculating contexts.
-#
-# - You can disable context calculators by either:
-#   => specifying the Java class name used by the calculator (e.g. com.example.ExampleCalculator)
-#   => specifying a sub-section of the Java package used by the calculator (e.g. com.example)
-disabled-context-calculators: []
-
 # Allows you to set "aliases" for the worlds sent forward for context calculation.
 #
 # - These aliases are provided in addition to the real world name. Applied recursively.
@@ -593,8 +575,7 @@ group-weight:
 # Controls whether server operators should exist at all.
 #
 # - When set to 'false', all players will be de-opped, and the /op and /deop commands will be
-#   disabled. Note that vanilla features like the spawn-protection require an operator on the
-#   server to work.
+#   disabled.
 enable-ops: true
 
 # Enables or disables a special permission based system in LuckPerms for controlling OP status.
@@ -679,14 +660,6 @@ debug-logins: false
 #   or less.
 allow-invalid-usernames: false
 
-# If LuckPerms should not require users to confirm bulkupdate operations.
-#
-# - When set to true, operations will be executed immediately.
-# - This is not recommended, as bulkupdate has the potential to irreversibly delete large amounts of
-#   data, and is not designed to be executed automatically.
-# - If automation is needed, users should prefer using the LuckPerms API.
-skip-bulkupdate-confirmation: false
-
 # If LuckPerms should allow a users primary group to be removed with the 'parent remove' command.
 #
 # - When this happens, the plugin will set their primary group back to default.
@@ -701,3 +674,7 @@ register-command-list-data: true
 # If LuckPerms should attempt to resolve Vanilla command target selectors for LP commands.
 # See here for more info: https://minecraft.gamepedia.com/Commands#Target_selectors
 resolve-command-selectors: false
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

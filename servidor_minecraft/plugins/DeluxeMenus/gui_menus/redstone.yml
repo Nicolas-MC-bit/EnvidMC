@@ -1,0 +1,689 @@
+menu_title: '&8Redstone'
+size: 54
+open_command:
+- redstone
+items:
+
+  '10':
+    material: DAYLIGHT_DETECTOR
+    amount: 4
+    slot: 10
+    display_name: "&fDayLight Detector &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f400.0 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 400
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% DAYLIGHT_DETECTOR 4'
+    - '[takemoney] 400.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '11':
+    material: OBSERVER
+    amount: 4
+    slot: 11
+    display_name: "&fObserver &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f430.0 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 430
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% OBSERVER 4'
+    - '[takemoney] 430.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'    
+  '12':
+    material: NOTE_BLOCK
+    amount: 4
+    slot: 12
+    display_name: "&fNote Block &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f200.0 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 200
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% NOTE_BLOCK 4'
+    - '[takemoney] 200.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'    
+        
+  '13':
+    material: DISPENSER
+    amount: 4
+    slot: 13
+    display_name: "&fDispenser &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f200.0 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 200
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% DISPENSER 4'
+    - '[takemoney] 200.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'       
+  '14':
+    material: STICKY_PISTON
+    amount: 4
+    slot: 14
+    display_name: "&fSticky Piston &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f150.0 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% STICKY_PISTON 4'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'      
+
+  '15':
+    material: REDSTONE_LAMP
+    amount: 1
+    slot: 15
+    display_name: "&fRedstone Lamp &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f270.0 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 270
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% REDSTONE_LAMP 1'
+    - '[takemoney] 270.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'      
+
+  '16':
+    material: TNT
+    amount: 8
+    slot: 16
+    display_name: "&fTnt &ax8"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f2k &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 2000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% TNT 8'
+    - '[takemoney] 2000.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'      
+  '17':
+    material: PISTON
+    amount: 4
+    slot: 19
+    display_name: "&fPiston &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f220 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 220
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% PISTON 4'
+    - '[takemoney] 220.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'      
+  '18':
+    material: DROPPER
+    amount: 4
+    slot: 20
+    display_name: "&fDropper &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f220 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 220
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% DROPPER 4'
+    - '[takemoney] 220.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+ 
+  '19':
+    material: HOPPER
+    amount: 4
+    slot: 21
+    display_name: "&fHopper &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f220 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 220
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% HOPPER 4'
+    - '[takemoney] 220.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+  
+  '20':
+    material: TRIPWIRE_HOOK
+    amount: 16
+    slot: 22
+    display_name: "&fTripwire Hook &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f300 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 300
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% TRIPWIRE_HOOK 16'
+    - '[takemoney] 300.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+ 
+  '21':
+    material: COMPARATOR
+    amount: 4
+    slot: 23
+    display_name: "&fComparator &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f220 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 220
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% COMPARATOR 4'
+    - '[takemoney] 220.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'   
+    
+  '22':
+    material: REPEATER
+    amount: 4
+    slot: 24
+    display_name: "&fRepeater &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f220 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 220
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% REPEATER 4'
+    - '[takemoney] 220.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'      
+    
+  '23':
+    material: LEVER
+    amount: 4
+    slot: 25
+    display_name: "&fLever &ax4"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f50 &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 50
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] give %player_name% LEVER 4'
+    - '[takemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'      
+  '54':
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ5NGEzMGEyNzk5ZWJmYmM4YWQ3NzZiOTM4N2YzZTlkMTc5OWJiYTg5MDAwMTNhYzk5MmRiMWZiYWQ0MWNlNyJ9fX0="
+    amount: 1
+    slot: 30
+    display_name: "&fProtection Block &a64x64"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f10k &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 10000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] ps give 64 %player_name%'
+    - '[takemoney] 10000.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+  '55':
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19"
+    amount: 1
+    slot: 31
+    display_name: "&fProtection Block &a32x32"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f6k &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 6000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] ps give 32 %player_name%'
+    - '[takemoney] 6000.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'   
+  '56':
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTlkMDhjMGE4ZDAwMWE3ODhlMjYwZDZiYTFmNGYwOGFkYTBlYTcxOWEwZjRlNjExZDZjNGI3YWM4M2JiMDM1ZSJ9fX0="
+    amount: 1
+    slot: 32
+    display_name: "&fProtection Block &a16x16"
+    lore:
+    - ' &8| Redstone Shop '
+    - "&7"
+    - ' &7Buy Redstone: &f1k &f'
+    - '&7'
+    - '&e¡Left click buy redstone!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 1000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    left_click_commands:
+    - '[console] ps give 16 %player_name%'
+    - '[takemoney] 1000.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  '53':
+    material: MAP
+    slot: 53
+    model_data: 33
+    display_name: "&r "
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: 
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 45
+      - 46
+      - 47
+      - 49
+      - 51
+      - 52
+    display_name: '&7'
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&cClose Redstone Shop'
+    model_data: 1    
+    lore:
+    - '&eClick to close redstone!'
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

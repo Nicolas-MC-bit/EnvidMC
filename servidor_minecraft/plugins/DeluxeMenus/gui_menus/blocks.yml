@@ -1,0 +1,983 @@
+menu_title: '&8Builder'
+size: 54
+open_command:
+- builder
+items:
+  '10':
+    material: GRASS_BLOCK
+    amount: 16
+    slot: 10
+    display_name: "&fGrass Block &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: GRASS_BLOCK
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% grass_block 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% grass_block 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2' 
+  '11':
+    material: DIRT
+    amount: 16
+    slot: 11
+    display_name: "&fDirt &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: DIRT
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% dirt 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% dirt 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+  '12':
+    material: SAND
+    amount: 16
+    slot: 12
+    display_name: "&fSand &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: SAND
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% sand 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% sand 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+  '13':
+    material: STONE_BRICKS
+    amount: 16
+    slot: 13
+    display_name: "&fStone Bricks &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: STONE_BRICKS
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% stone_bricks 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% stone_bricks 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+  '14':
+    material: STONE
+    amount: 16
+    slot: 14
+    display_name: "&fStone &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: STONE
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% stone 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% stone 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+  '15':
+    material: COBBLESTONE
+    amount: 16
+    slot: 15
+    display_name: "&fCobbleStone &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COBBLESTONE
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% cobblestone 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% cobblestone 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+  '16':
+    material: GRANITE
+    amount: 16
+    slot: 16
+    display_name: "&fGranite &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: GRANITE
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% granite 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% granite 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+  '17':
+    material: DIORITE
+    amount: 16
+    slot: 19
+    display_name: "&fDiorite &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: DIORITE
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% diorite 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% diorite 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+
+  '18':
+    material: ICE
+    amount: 4
+    slot: 20
+    display_name: "&fIce &ax4"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f350.0 &f'
+    - ' &7Sell for: &f80.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 350
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: ICE
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% ice 4'
+    - '[takemoney] 350.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% ice 4'
+    - '[givemoney] 80.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+  '19':
+    material: RED_MUSHROOM_BLOCK
+    amount: 4
+    slot: 21
+    display_name: "&fRed Mushroom Block &ax4"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f350.0 &f'
+    - ' &7Sell for: &f80.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 350
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: RED_MUSHROOM_BLOCK
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% red_mushroom_block 4'
+    - '[takemoney] 350.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% red_mushroom_block 4'
+    - '[givemoney] 80.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'   
+    
+  '20':
+    material: COARSE_DIRT
+    amount: 4
+    slot: 22
+    display_name: "&fCoarse Dirt &ax4"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f350.0 &f'
+    - ' &7Sell for: &f80.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 350
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COARSE_DIRT
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% coarse_dirt 4'
+    - '[takemoney] 350.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% coarse_dirt 4'
+    - '[givemoney] 80.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+    
+  '21':
+    material: MYCELIUM
+    amount: 4
+    slot: 23
+    display_name: "&fMycelium &ax4"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f350.0 &f'
+    - ' &7Sell for: &f80.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 350
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: MYCELIUM
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% mycelium 4'
+    - '[takemoney] 350.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% mycelium 4'
+    - '[givemoney] 80.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'       
+  '22':
+    material: WHITE_CONCRETE
+    amount: 4
+    slot: 24
+    display_name: "&fWhite Concrete &ax4"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f350.0 &f'
+    - ' &7Sell for: &f80.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 350
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: WHITE_CONCRETE
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% white_concrete 4'
+    - '[takemoney] 350.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% white_concrete 4'
+    - '[givemoney] 80.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'       
+  '23':
+    material: BROWN_MUSHROOM_BLOCK
+    amount: 4
+    slot: 25
+    display_name: "&fBrown Mushroom Block &ax4"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f350.0 &f'
+    - ' &7Sell for: &f80.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 350
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BROWN_MUSHROOM_BLOCK
+          amount: 4
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% BROWN_MUSHROOM_BLOCK 4'
+    - '[takemoney] 350.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% BROWN_MUSHROOM_BLOCK 4'
+    - '[givemoney] 80.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'       
+  '24':
+    material: WHITE_WOOL
+    amount: 16
+    slot: 28
+    display_name: "&fWhite Wool &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: WHITE_WOOL
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% WHITE_WOOL 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% WHITE_WOOL 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'                  
+  '25':
+    material: GLASS
+    amount: 16
+    slot: 29
+    display_name: "&fGlass &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: GLASS
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% GLASS 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% GLASS 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'                  
+  '26':
+    material: BIRCH_LOG
+    amount: 16
+    slot: 30
+    display_name: "&fBirch Log &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BIRCH_LOG
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% BIRCH_LOG 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% BIRCH_LOG 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+  '27':
+    material: SPRUCE_LOG
+    amount: 16
+    slot: 31
+    display_name: "&fSpruce Log &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: SPRUCE_LOG
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% SPRUCE_LOG 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% SPRUCE_LOG 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'  
+  '28':
+    material: JUNGLE_LOG
+    amount: 16
+    slot: 32
+    display_name: "&fJungle Log &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: JUNGLE_LOG
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% JUNGLE_LOG 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% JUNGLE_LOG 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'     
+  '29':
+    material: ACACIA_LOG
+    amount: 16
+    slot: 33
+    display_name: "&fAcacia Log &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: ACACIA_LOG
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% ACACIA_LOG 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% ACACIA_LOG 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'        
+  '30':
+    material: OAK_LOG
+    amount: 16
+    slot: 34
+    display_name: "&fOak Log &ax16"
+    lore:
+    - ' &8| Builder Shop '
+    - "&7"
+    - ' &7Buy blocks: &f150.0 &f'
+    - ' &7Sell for: &f50.0 &f'
+    - '&7'
+    - '&e¡Left click buy blocks!    '
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 150
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+          - '[close]'
+          - '[message] &c ¡You dont have enough money to buy this!'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: OAK_LOG
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] give %player_name% OAK_LOG 16'
+    - '[takemoney] 150.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] essentials:clear %player_name% OAK_LOG 16'
+    - '[givemoney] 50.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  '53':
+    material: MAP
+    slot: 53
+    model_data: 1
+    display_name: "&r "
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: 
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 45
+      - 46
+      - 47
+      - 49
+      - 51
+      - 52
+    display_name: '&7'
+
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&cClose Builder Shop'
+    model_data: 1    
+    lore:
+    - '&eClick to close builder!'
+    left_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_LEVER_CLICK 1 2'
+    right_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_LEVER_CLICK 1 2'
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

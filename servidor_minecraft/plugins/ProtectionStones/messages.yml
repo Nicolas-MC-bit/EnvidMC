@@ -63,8 +63,8 @@ psregion:
   region_does_not_exist: '&cRegion does not exist.'
   no_regions_owned: '&cYou don''t own any protected regions in this world!'
   no_region_permission: '&cYou do not have permission to do this in this region.'
-  protected: '&bThis area is now protected.'
-  no_longer_protected: '&eThis area is no longer protected.'
+  protected: '&aThis area is now protected.'
+  no_longer_protected: '&cThis area is no longer protected.'
   cant_protect_that: '&cYou can''t protect that area.'
   reached_region_limit: '&cYou can not have any more protected regions (%limit%).'
   reached_per_block_region_limit: '&cYou can not have any more regions of this type
@@ -365,3 +365,7 @@ merge:
   no_region: '&7There are no overlapping regions to merge into.'
   click_to_merge: Click to merge with %region%!
   auto_merged: '&7Region automatically merged with &b%region%&7.'
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

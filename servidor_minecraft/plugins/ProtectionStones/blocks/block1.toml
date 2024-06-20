@@ -5,12 +5,12 @@
 # To use custom player heads, you need the base64 value of the head. On minecraft-heads.com, you will find this value in the Other section under "Value:".
 # To use UUIDs for player heads, go to https://sessionserver.mojang.com/session/minecraft/profile/PUT-UUID-HERE and copy the value from the "value" field not including quotes.
 # When you have the value, you can set the type to "PLAYER_HEAD:value"
-type = "EMERALD_ORE"
+type = "DIAMOND_ORE"
 
 # Another way to refer to the protection stone
 # Can be used for /ps give and /ps get
 # Must be one word (no spaces)
-alias = "64"
+alias = "32"
 
 # Description of the protection block type
 # Shows up in /ps get menu
@@ -49,9 +49,9 @@ allow_placing_in_wild = true
     # Protection radius of block (radius of 64 -> 129 x 129 region)
     # Set y_radius to -1 if you want it to protect from sky to bedrock. If this doesn't appear to work set it to 256.
     # y_radius must be -1 if you are allowing the region to be merged ("allow_merging" option)
-    x_radius = 64
+    x_radius = 32
     y_radius = -1
-    z_radius = 64
+    z_radius = 32
 
     # Offset the protection block
     # If you would like to make the protection block not be at the center of new regions, you can offset it here
@@ -71,10 +71,10 @@ allow_placing_in_wild = true
     flags = [
         "pvp deny",
         "tnt deny",
-        "greeting &lEntering &b&l%player%'s &f&lprotected area",
-        "farewell &lLeaving &b&l%player%'s &f&lprotected area",
-        "greeting-action &lEntering &b&l%player%'s &f&lprotected area",
-        "farewell-action &lLeaving &b&l%player%'s &f&lprotected area",
+        "greeting &r &f &8| » &aEntering &7%player%'s &fprotected area.",
+        "farewell &r &f &8| » &cLeaving &7%player%'s &fprotected area.",
+        "greeting-action &f &8| &a&lEntering &fprotected area",
+        "farewell-action &f &8| &c&lLeaving &fprotected area",
         "creeper-explosion deny",
         "wither-damage deny",
         "ghast-fireball deny",
@@ -145,13 +145,23 @@ allow_placing_in_wild = true
     # Name given to protection block when obtained with /ps give or /ps get
     # Also affects custom crafted items (see custom_recipe)
     # Leave as '' for no name
-    display_name = "&a&m<---&r&b 64 Radius Protection Block &r&a&m--->"
+    display_name = "&b&lProtection Block &7(2.0)"
 
     # Lore given to protection block when obtained with /ps give or /ps get
     # Also affects custom crafted items (see custom_recipe)
     # Leave as [] for no lore
     lore = [
-        "&6(⌐■_■)ノ♪ Nobody's going to touch my stuff!",
+        "&8| Block Protection",
+        "",
+        "&7&oKeep your things safe,",
+        "&7&owith this protection block place",
+        "&7&oit in an unprotected area.",
+        "",
+        "&F&lINFORMATION",
+        "",
+        "  &8▪ &fProtected Area: &a32x32",
+        "",
+        "&e¡Click to Place Protection",
     ]
 
     # Add price when using /ps get

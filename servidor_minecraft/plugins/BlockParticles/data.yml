@@ -1,0 +1,41 @@
+locations:
+  '1':
+    world: world
+    x: 101
+    y: 44
+    z: 33
+    particle: rainbow
+  blocks:
+    world: world
+    x: 18
+    y: 44
+    z: 15
+    particle: rainbow
+  food:
+    world: world
+    x: 62
+    y: 44
+    z: 39
+    particle: rainbow
+  redstone:
+    world: world
+    x: 51
+    y: 43
+    z: -23
+    particle: rainbow
+  bee:
+    world: world
+    x: 64
+    y: 44
+    z: 6
+    particle: crit
+  bee2:
+    world: world
+    x: 124
+    y: 44
+    z: 5
+    particle: Crit
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

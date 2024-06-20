@@ -1,0 +1,49 @@
+#styles (SERVER 1.9+)
+#NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20, PROGRESS
+
+#colors (SERVER 1.9+)
+#BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+
+#IF YOU ARE USING SERVER 1.8.X
+#the entity will be slightly visible when progress is less than ~50% (client-sided bug)
+#only 1 line can be displayed at a time
+
+#you can also announce a message using /tab announce bar <bar name> <duration in seconds>
+
+bossbar-enabled: true
+bossbar-toggle-command: /bossbar
+
+#tab.togglebar
+permission-required-to-toggle: false
+
+#saving toggle decision into playerdata.yml to keep it saved after reloads/restarts
+remember-toggle-choice: false
+
+#initially hidden until players run toggle command
+hidden-by-default: false
+
+#to have no default bars, set it to 
+#default-bars: []
+default-bars:
+  - ServerInfo
+  - information
+per-world:
+
+bars:
+  ServerInfo:
+    #all 4 settings support placeholders including animations, you can use it to achieve changing text
+    style: "PROGRESS"
+    color: "WHITE"
+    progress: "100" # in %
+    text: "&f &7%localtime_time_dd MMM yyyy HH:mm:ss z%"
+  information:
+      #all 4 settings support placeholders including animations, you can use it to achieve changing text
+    style: "PROGRESS"
+    color: "WHITE"
+    progress: "100" # in %
+    text: "&f%vault_eco_balance_formatted% &f   &fRank: %javascript_example%"
+
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

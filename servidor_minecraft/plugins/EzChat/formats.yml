@@ -1,0 +1,29 @@
+## LOWER_FIRST: Selects the format with the lowest priority that the user has
+## HIGHER_FIRST: Selects the format with the highest priority that the user has
+default-priority-ordering: HIGHER_FIRST
+formats:
+- ==: me.fixeddev.ezchat.format.BaseChatFormat
+  name: default
+  priority: 999999
+  prefix: ''
+  ## Supported values:
+  ## EXECUTE, SUGGEST, OPEN
+  prefix-click-action: ''
+  prefix-tooltip: []
+  player-name: ' &f &8| %javascript_example2% &f{displayName}'
+  ## Supported values:
+  ## EXECUTE, SUGGEST, OPEN
+  player-name-click-action: '[SUGGEST] /msg {name}'
+  player-name-tooltip: []
+  suffix: ": "
+  ## Supported values:
+  ## EXECUTE, SUGGEST, OPEN
+  suffix-click-action: ''
+  suffix-tooltip: []
+  chat-color: '&#ADB5BF'
+  permission: default
+  use-placeholderapi: true
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

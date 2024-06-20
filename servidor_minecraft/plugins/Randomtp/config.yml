@@ -63,7 +63,7 @@ Cooldown:
     second: "second(s)"
 
 Countdown:
-  enabled: true
+  enabled: false
   seconds: 5
   #Should the plugin count down in chat when RTP'ing
   #ie.
@@ -73,8 +73,6 @@ Countdown:
   countdown-message: true
 
 Rtp-settings:
-  #Maximum Y level players will be teleported to
-  max-height: 256
   #Max attempts to generate location
   max-attempts: 30
   Confirm-gui:
@@ -118,7 +116,7 @@ Rtp-settings:
         material: GRASS_BLOCK
   TierGUI:
     #This *no longer* needs the world GUI to be turned on :)
-    enabled: true
+    enabled: false
     #Title of the Tier GUI
     title: "§aSelect RTP Tier"
     #Lore (the text under) under each one of the Tiers
@@ -134,35 +132,30 @@ Rtp-settings:
     one:
       enabled: true
       border: 1000
-      min-radius: 0
       price: 100
       title: "§7Coal Tier"
       material: COAL_BLOCK
     two:
       enabled: true
       border: 3000
-      min-radius: 1000
       price: 300
       title: "§fIron Tier"
       material: IRON_BLOCK
     three:
       enabled: true
       border: 5000
-      min-radius: 3000
       price: 500
       title: "§6Gold Tier"
       material: GOLD_BLOCK
     four:
       enabled: true
       border: 7500
-      min-radius: 5000
       price: 750
       title: "§bDiamond Tier"
       material: DIAMOND_BLOCK
     five:
       enabled: true
       border: 10000
-      min-radius: 7500
       price: 1000
       title: "§cNetherite Tier"
       material: NETHERITE_BLOCK
@@ -227,7 +220,7 @@ Biome-blacklist:
 #--Signs--
 Signs:
   #If you want to enable RTP signs
-  enabled: true
+  enabled: false
   Lines:
     #What text should be on the signs
     #!!! If you don't use color codes (ex: &a &b &e) on signs players without the permission could create RTP signs !!!
@@ -242,9 +235,9 @@ Titles:
   #Should players see titles when being teleported
   enabled: true
   #Title message
-  generating-title: "&bTeleporting you to a random location"
+  generating-title: "&b&lTELEPORTING.."
   #Subtitle message
-  generating-subtitle: "&6Generating a safe location"
+  generating-subtitle: "&fYou have been &eteleported"
 
 
 #If enabled the plugin will give the player resistance after rtp'ing
@@ -276,11 +269,11 @@ Particles:
 #You can only use placeholders in some messages
 Messages:
   #The message you see when you get teleported
-  tp-message: "&6You were teleported to a random location"
+  tp-message: " &e❖ &8| » &fYou have been &ateleported&f to a random place on the map"
   #Message that the player that executed the command /rtp <player> will receive.
-  tp-message-sender: "&6You teleported &c%player% &6to a random location"
+  tp-message-sender: " &e❖ &8| » &fYou have been &ateleported&f to a random place on the map"
   #Message when you RTP someone to a specific biome
-  tp-message-sender-biome: "&6You teleported &c%player% &6to a random location in the biome &c%biome%"
+  tp-message-sender-biome: " &e❖ &8| » &fYou have been &ateleported&f to a random place on the map"
   #The message you see when you execute the /rtp @everyone command
   tp-everyone-message: "&6Teleporting everyone on the server"
   #Message when the world you try to rtp in is disabled
@@ -323,7 +316,10 @@ Messages:
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #!!!!!!!!!!!!!!!!!! don't touch pls :) !!!!!!!!!!!!!!!!!!!
-config-version: 2.19.6
+config-version: 2.19.3
 #! don't change this if you don't know what you're doing !
 config-version-checker: true
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE

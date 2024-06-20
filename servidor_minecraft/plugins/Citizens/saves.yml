@@ -1,0 +1,1820 @@
+# Citizens NPC Storage
+
+
+
+last-created-npc-id: 18
+npc:
+  '3':
+    name: §r
+    uuid: 7a208fcc-9854-478d-a3a4-b5324637ee37
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: -178.4536
+        world: world
+        x: '62.4417'
+        y: '44.0'
+        z: '39.3998'
+        yaw: '-178.4536'
+        pitch: '-3.2621'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: F4A3AtFCFosgS3GDsNEZWLpeKQgFgiq0MmWwswGRFeB0uFIZcRjcwcmupNPdlkX2AVW+fP8V4hndEnN5HeQmcJZH6YofE78I+q5/VCLspsnYe2o1+iJHSUXZqBrC0g/JNzs2gpFxDNLEFZjXsHcnFg16kZcWHV1snPzyRSGDOF2e9Bl8a1hc6pxu2QXj+/nbIEJ2FEhHn1lYJ0ac5T8UZPaqrfwrI6lhv910pfcuM24mS8Lej5mGklb8fYWORhRfRJqnZAd+W916IVAu53sPmEpBaSV2Jra5o4VgcPhFBVuJIdlT7suDkBXdVVIP8wu6aVbc71LY+qWWZYk4EKOer7sP6MQO3TfA1qE/o8NyywpzB7bRg7d+kEeEJ6OzoFT57KU56AJY9cUkOEGFTfu8IqYUXD9HTk24XOOhd+3aOM6GpUZ4n6R82RahQRVAFdSY67ETigBylfyoqCMOisjRSRPmJ1l6YDzMscj2OykIesZatCBfLvwUO4QRNuVcGCSyYZ1sL99YUpp/UdxpAWA7zeofZLps/pYoLL9F/TQmEU32HBi1UIxdS7ckvRiYnjOLLsiaS/vGq7vI4jLshRkI5lTu8pV0gMo4iIS5zOHgv2Pv5qIWBR+F/X+mKOEbdGEvJ1KJfP4DqlHcmXdTUDiICWLVcvzQFA5QJXKpzLLMouQ=
+        skinName: da4eebf2-934c-4766-b4a8-61207e0132a7
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyNDY5MjkxNTY3OCwKICAicHJvZmlsZUlkIiA6ICIxYTc1ZTNiYmI1NTk0MTc2OTVjMmY4NTY1YzNlMDAzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXJvZmFyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E2MjUzZTQxMmQ5YTc2YmUyZDBhZTdjMTA2MTY1MDRmY2NlMTI1NWFlMDdmMjYzM2M5YzNhYTBlZjZlNTU2NjkiCiAgICB9CiAgfQp9
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: chef
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: tellraw <p> "&e[NPC] &fYou're a little hungry, I know."
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+      sneak:
+        sneaking: false
+    traitnames: mounttrait,owner,scoreboardtrait,inventory,sneak,type,spawned,commandtrait,location,skintrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: da4eebf2-934c-4766-b4a8-61207e0132a7
+  '2':
+    metadata:
+      nameplate-visible: 'false'
+    name: help
+    uuid: 181bb5e4-1ce8-4786-9d12-3f52a3ce87f4
+    traits:
+      type: VILLAGER
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        headonly: false
+        perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: -225.58276
+        world: world
+        x: '32.4629'
+        y: '44.0'
+        z: '51.4949'
+        yaw: '-157.6727'
+        pitch: '0.0'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: tellraw <p> "&e[NPC] &fWow, looks like you need a little help."
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+    traitnames: mounttrait,owner,age,scoreboardtrait,lookclose,type,spawned,commandtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: §e[NPC] §fLucas
+    uuid: 0b4f9698-bdec-44bd-b2a6-7e177af321c4
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: gzFt4pR4z4/5/VgobCvaYc+3itGhMqcll/zvr5ZhvLAVt3kfE+2WCvVNdk0ODLo5hcqO4m+fMom1FwjmcDvFWrFr5RgIa+SqcXh7rHaGvjGu6S7I/6oWafhNDDrfm9sSKNsiQ1jPKpV3+0YpVPU/x14fG276EILEFdKWWgYFmEU0E7e1KTMTRW5dU4xcQ3BVEqYQ+WTYfqrv19SH1peCKRenu9HxX8wxqcH1Gakvj7I2U0tzcT4V1ocFjBuDAEjgoN63tHP+7khRrByOwdcUvb3xQMu3vW5nU8iYPSSEpTmLQAc6SHnrCo53+nWD1/x9FuPNUcoZEaNT6/w0/FQoQOWjua08C6ZWktIMFC+aKMqREunhziukgwtt+sQV+ynJY/wXqc4KMkMhvOvFJkiRhZbvJtIoEwJJiEfUQzekAheE/4mqjdQdJ7mK90osNAzakeqdjjIsG1IH4qmr6I1e1PVuv/ueY38kw+a0ajZtOIqZT+qWZ9bQ9ce0pYd6KbWgOtUTK9WNiWZxtR/4uygochlw+H37xzP7YI9DbGFBVuffM31A0irF9rWvl2EZvcItJVdAhtk778Kc5otcmhcUC/YYo1oeqMmy5OPLPROBz3AiJxiy52rqEe3GRqda17uKCdYnZ7q+io+FmIug+/ftYfATGBMqUe5ux79isBI89fg=
+        skinName: e20dc73e-a26b-4d5a-a330-0e3da25c583d
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyNDU5NjU0NDkzOCwKICAicHJvZmlsZUlkIiA6ICI0ODBkMmFiMmY1ZTk0OWQ0YWM2Mzk0NDdmNjIzYTYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIb3RhbXBhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlOWMyMGZmOTY4MDBjYjZiY2M5MzljZWVhMmU2M2UwOWE1MTZlODRhNzEwMWI1OTFkOGM1MjMxNzcxMjVlMzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      type: PLAYER
+      location:
+        bodyYaw: 32.45632
+        world: world
+        x: '101.1972'
+        y: '44.0'
+        z: '17.4038'
+        yaw: '32.4563'
+        pitch: '0.0'
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: 'tellraw <p> "&e[NPC]&7 Lucas: &fHey, do you want something?."'
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      equipment:
+        hand:
+          type_key: cookie
+          amount: 64
+      inventory:
+        '0':
+          type_key: cookie
+          amount: 64
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+          points:
+            '0':
+              location:
+                world: world
+                x: '90.0'
+                y: '43.0'
+                z: '6.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: world
+                x: '99.0'
+                y: '43.0'
+                z: '9.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: world
+                x: '105.0'
+                y: '43.0'
+                z: '15.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: world
+                x: '110.0'
+                y: '43.0'
+                z: '9.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '4':
+              location:
+                world: world
+                x: '115.0'
+                y: '43.0'
+                z: '15.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '5':
+              location:
+                world: world
+                x: '122.0'
+                y: '43.0'
+                z: '11.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '6':
+              location:
+                world: world
+                x: '123.0'
+                y: '43.0'
+                z: '6.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '7':
+              location:
+                world: world
+                x: '116.0'
+                y: '43.0'
+                z: '6.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '8':
+              location:
+                world: world
+                x: '106.0'
+                y: '43.0'
+                z: '12.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '9':
+              location:
+                world: world
+                x: '106.0'
+                y: '43.0'
+                z: '16.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '10':
+              location:
+                world: world
+                x: '106.0'
+                y: '43.0'
+                z: '19.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '11':
+              location:
+                world: world
+                x: '99.0'
+                y: '43.0'
+                z: '16.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '12':
+              location:
+                world: world
+                x: '99.0'
+                y: '43.0'
+                z: '22.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '13':
+              location:
+                world: world
+                x: '100.0'
+                y: '43.0'
+                z: '25.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '14':
+              location:
+                world: world
+                x: '95.0'
+                y: '43.0'
+                z: '17.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '15':
+              location:
+                world: world
+                x: '91.0'
+                y: '43.0'
+                z: '14.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '16':
+              location:
+                world: world
+                x: '88.0'
+                y: '43.0'
+                z: '15.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '17':
+              location:
+                world: world
+                x: '85.0'
+                y: '43.0'
+                z: '19.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '18':
+              location:
+                world: world
+                x: '76.0'
+                y: '43.0'
+                z: '14.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '19':
+              location:
+                world: world
+                x: '69.0'
+                y: '43.0'
+                z: '14.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '20':
+              location:
+                world: world
+                x: '65.0'
+                y: '43.0'
+                z: '17.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '21':
+              location:
+                world: world
+                x: '65.0'
+                y: '43.0'
+                z: '25.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '22':
+              location:
+                world: world
+                x: '69.0'
+                y: '43.0'
+                z: '33.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '23':
+              location:
+                world: world
+                x: '66.0'
+                y: '43.0'
+                z: '34.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '24':
+              location:
+                world: world
+                x: '62.0'
+                y: '43.0'
+                z: '31.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '25':
+              location:
+                world: world
+                x: '62.0'
+                y: '43.0'
+                z: '23.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '26':
+              location:
+                world: world
+                x: '60.0'
+                y: '43.0'
+                z: '20.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '27':
+              location:
+                world: world
+                x: '58.0'
+                y: '44.0'
+                z: '17.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '28':
+              location:
+                world: world
+                x: '54.0'
+                y: '44.0'
+                z: '11.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '29':
+              location:
+                world: world
+                x: '51.0'
+                y: '43.0'
+                z: '6.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '30':
+              location:
+                world: world
+                x: '50.0'
+                y: '43.0'
+                z: '-1.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '31':
+              location:
+                world: world
+                x: '47.0'
+                y: '43.0'
+                z: '-9.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '32':
+              location:
+                world: world
+                x: '45.0'
+                y: '42.0'
+                z: '-16.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '33':
+              location:
+                world: world
+                x: '49.0'
+                y: '42.0'
+                z: '-15.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '34':
+              location:
+                world: world
+                x: '54.0'
+                y: '42.0'
+                z: '-15.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '35':
+              location:
+                world: world
+                x: '59.0'
+                y: '42.0'
+                z: '-20.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '36':
+              location:
+                world: world
+                x: '63.0'
+                y: '42.0'
+                z: '-17.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '37':
+              location:
+                world: world
+                x: '60.0'
+                y: '42.0'
+                z: '-13.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '38':
+              location:
+                world: world
+                x: '57.0'
+                y: '43.0'
+                z: '-10.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '39':
+              location:
+                world: world
+                x: '54.0'
+                y: '43.0'
+                z: '-7.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '40':
+              location:
+                world: world
+                x: '54.0'
+                y: '43.0'
+                z: '-2.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '41':
+              location:
+                world: world
+                x: '58.0'
+                y: '43.0'
+                z: '2.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '42':
+              location:
+                world: world
+                x: '56.0'
+                y: '43.0'
+                z: '5.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '43':
+              location:
+                world: world
+                x: '56.0'
+                y: '44.0'
+                z: '9.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '44':
+              location:
+                world: world
+                x: '56.0'
+                y: '44.0'
+                z: '12.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '45':
+              location:
+                world: world
+                x: '60.0'
+                y: '44.0'
+                z: '13.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '46':
+              location:
+                world: world
+                x: '64.0'
+                y: '43.0'
+                z: '12.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '47':
+              location:
+                world: world
+                x: '69.0'
+                y: '43.0'
+                z: '10.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '48':
+              location:
+                world: world
+                x: '72.0'
+                y: '43.0'
+                z: '9.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '49':
+              location:
+                world: world
+                x: '76.0'
+                y: '43.0'
+                z: '8.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '50':
+              location:
+                world: world
+                x: '80.0'
+                y: '43.0'
+                z: '8.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '51':
+              location:
+                world: world
+                x: '84.0'
+                y: '43.0'
+                z: '7.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '52':
+              location:
+                world: world
+                x: '88.0'
+                y: '43.0'
+                z: '8.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '53':
+              location:
+                world: world
+                x: '90.0'
+                y: '43.0'
+                z: '6.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '54':
+              location:
+                world: world
+                x: '92.0'
+                y: '43.0'
+                z: '8.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+      sneak:
+        sneaking: false
+    traitnames: mounttrait,waypoints,owner,scoreboardtrait,inventory,sneak,type,spawned,commandtrait,location,skintrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: e20dc73e-a26b-4d5a-a330-0e3da25c583d
+  '4':
+    name: §r
+    uuid: 458a1816-4225-4f5a-8916-cbae6ab99c02
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: oD+UEAv5kgDhs0GiarR2AsJnVFAaIKEaf5BBP4CTII8b9qgVmRsp3pMrI3zsMzqWsAV6G6rjHX/IW8gFOy01zfg6Fj3mpLdYREsxPVbnIVgVH67xfrL2COq0nMB2ErjNFabEdur3qy4sdfOG8Csyq1c7/v/T7cQ4huoU/FTOXXGf1nQeAx33UtKTNoNz6DAz9io354Brgx7dPmoAq1DeKT0Z8Ko7mInRIKxpfD2KpVYwVwsHzvhJr3eJ1XNILUTjyJrD77yKxaj47DzjNrP/km2MIYf6zHnJfs6DSs4jFW/OvA8s84HiPi8iT3e8WGIMW6HUIxEpabTanfavq9EgwxrPitQfO7+JsgEuDftwFge/3mp+jJansJZR1/Z/rHQu9u9uTzEgivYuV399C0pP7UUWY7UjVnQZ10fCn9IUtZ22K8cLzGn75kYb3jxWvD+Lqjg9+HPXf78WzUWk0wQ3rC+RbM0VUgsJ72Lv4buDFyCZ7RDUAFjQU+0WjFAZWhIsYtaHkrqmcmgAsPmcM19lJCGPnTG0xV2tRMeeCY+5Cc9+QRpsJV+sLrFRWw6++Ae1eJVAQX5GHkbYHitrAguBRbCjaFYM/hwUs23nu70Nc5n2QwQd9su3Plpa3p3L6nuNACCosE1iajvKNf2k1EVVe4G9GnKaIsT3R7gJ6QSfOCg=
+        skinName: b3fb037e-b35d-4c91-9e7e-9ff74082b535
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyMzYwMjI4MDk1MiwKICAicHJvZmlsZUlkIiA6ICJmMGIzYmRkMjEwNDg0Y2VlYjZhNTQyYmZiOGEyNTdiMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbm9uaW1ZVFQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFjMjA3YzAzZGZhNTdjZDZhYmQ4MjcxYzhmNzNjOTFhMjE2ZTc2MDExYmRjYmVlZWE5OWUyZDM2ZDc2YmFiOCIKICAgIH0KICB9Cn0=
+      type: PLAYER
+      location:
+        bodyYaw: -182.85161
+        world: world
+        x: '100.6026'
+        y: '44.0'
+        z: '29.3914'
+        yaw: '177.1484'
+        pitch: '-1.8325'
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: 'tellraw <p> "&e[NPC] &7Miner: &fYou need some minerals right?."'
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: minerals
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+      sneak:
+        sneaking: false
+    traitnames: mounttrait,owner,scoreboardtrait,inventory,sneak,type,spawned,commandtrait,location,skintrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: b3fb037e-b35d-4c91-9e7e-9ff74082b535
+      nameplate-visible: 'false'
+  '8':
+    metadata:
+      cached-skin-uuid-name: 77a0186b-ea25-4928-b1ca-699c84ea1c1e
+    name: §e[NPC] §fJose
+    uuid: 6b9e5691-e83f-4ec3-b374-1fa504c4aa0b
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: xIJqst/JWCRRaHwDQROFQxjcdW0p6YuL/+n07QSBo5zaM8zGn0MBuwltQO+gCoZFaGON0uFIC/JbwWkywaco/zZi0jKhMyUewwsOK5/lBiUM7NYtxhwRqMK6Cu4UXpquhUR1Ydaeg3vL7oixFWCmqRD65PK3yFnoUBhQNA+ZpLM245ZI//1D3NijBSbynp5n9YQkCp9wi22odW/hskT62myyMjvFLWLUQTyD2LYLxbMMx2OxqLFFxVK8ziAKDeParNeVPXxAjTx/tvQvfCYSnwBPEYySZiVPxnBwmh6P5rYdsw0jJQujRoSMo8ME5mLa+wJ6rxFrrJdZn6ocCqUzHLg/gdAlHrY4+Mg1oNMKob5BPE+YYrIlub/5L0Es3mnResf8C3FH6zbZ6fiiJY3+0Lhp3TJnRO6+IHGJovm2P1B1OHzRM9lPMzuV3p4rq9V9YrqcsFe38IvAxYLEBLafu82PI3rTWYZafYvMQiT39WDIczbpu0+KrKsUGq0yi1VBSzKUMKZAGakVy2tkstAMIsK70/rgcNu64l3IabfnWgkpXlajlmCO+f0+mSuN+9fuha/o9FFdCFzKSG4d748DBNs2x/6zDnVp3IJ/L4LrPq/j06Nx4ZY+U1W3cZ7y9pODAV/lVRycpGZT705tu2RNc1NBKnb2ykV1XwVBLQYZz8I=
+        skinName: 77a0186b-ea25-4928-b1ca-699c84ea1c1e
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxMDY0ODY5MTg4MiwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQwYzlkNjZmOTA5NWIyZTdmNTM4NzY1YjVjODgyZGRjMTVjZWExNTg1ZWMxZWIxOGY3NDUyZDg2MjkxMGViOSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: 'tellraw <p> "&e[NPC] &7Jose: &fDo you know where you can fish?
+              i need to fish."'
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      equipment:
+        hand:
+          type_key: fishing_rod
+          amount: 1
+      location:
+        bodyYaw: 222.14453
+        world: world
+        x: '101.8358'
+        y: '43.0'
+        z: '-58.7661'
+        yaw: '-137.8555'
+        pitch: '0.0'
+      spawned: true
+      inventory:
+        '0':
+          type_key: fishing_rod
+          amount: 1
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+          points:
+            '0':
+              location:
+                world: world
+                x: '86.0'
+                y: '42.0'
+                z: '-59.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: world
+                x: '90.0'
+                y: '42.0'
+                z: '-61.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: world
+                x: '97.0'
+                y: '42.0'
+                z: '-60.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: world
+                x: '103.0'
+                y: '42.0'
+                z: '-60.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '4':
+              location:
+                world: world
+                x: '103.0'
+                y: '42.0'
+                z: '-54.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '5':
+              location:
+                world: world
+                x: '99.0'
+                y: '42.0'
+                z: '-50.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '6':
+              location:
+                world: world
+                x: '94.0'
+                y: '42.0'
+                z: '-48.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '7':
+              location:
+                world: world
+                x: '91.0'
+                y: '42.0'
+                z: '-44.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '8':
+              location:
+                world: world
+                x: '86.0'
+                y: '42.0'
+                z: '-41.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '9':
+              location:
+                world: world
+                x: '86.0'
+                y: '43.0'
+                z: '-36.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '10':
+              location:
+                world: world
+                x: '93.0'
+                y: '42.0'
+                z: '-33.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '11':
+              location:
+                world: world
+                x: '89.0'
+                y: '42.0'
+                z: '-28.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '12':
+              location:
+                world: world
+                x: '83.0'
+                y: '42.0'
+                z: '-25.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '13':
+              location:
+                world: world
+                x: '78.0'
+                y: '42.0'
+                z: '-27.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '14':
+              location:
+                world: world
+                x: '78.0'
+                y: '42.0'
+                z: '-31.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '15':
+              location:
+                world: world
+                x: '79.0'
+                y: '42.0'
+                z: '-37.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '16':
+              location:
+                world: world
+                x: '74.0'
+                y: '42.0'
+                z: '-39.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '17':
+              location:
+                world: world
+                x: '70.0'
+                y: '42.0'
+                z: '-36.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '18':
+              location:
+                world: world
+                x: '71.0'
+                y: '42.0'
+                z: '-28.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '19':
+              location:
+                world: world
+                x: '64.0'
+                y: '42.0'
+                z: '-30.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '20':
+              location:
+                world: world
+                x: '66.0'
+                y: '42.0'
+                z: '-22.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '21':
+              location:
+                world: world
+                x: '63.0'
+                y: '42.0'
+                z: '-16.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '22':
+              location:
+                world: world
+                x: '56.0'
+                y: '42.0'
+                z: '-16.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '23':
+              location:
+                world: world
+                x: '55.0'
+                y: '43.0'
+                z: '-7.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '24':
+              location:
+                world: world
+                x: '48.0'
+                y: '43.0'
+                z: '-6.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '25':
+              location:
+                world: world
+                x: '47.0'
+                y: '42.0'
+                z: '-14.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '26':
+              location:
+                world: world
+                x: '57.0'
+                y: '42.0'
+                z: '-16.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '27':
+              location:
+                world: world
+                x: '60.0'
+                y: '42.0'
+                z: '-23.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '28':
+              location:
+                world: world
+                x: '65.0'
+                y: '42.0'
+                z: '-30.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '29':
+              location:
+                world: world
+                x: '70.0'
+                y: '42.0'
+                z: '-36.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '30':
+              location:
+                world: world
+                x: '76.0'
+                y: '42.0'
+                z: '-36.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '31':
+              location:
+                world: world
+                x: '80.0'
+                y: '42.0'
+                z: '-34.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '32':
+              location:
+                world: world
+                x: '78.0'
+                y: '42.0'
+                z: '-41.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '33':
+              location:
+                world: world
+                x: '80.0'
+                y: '42.0'
+                z: '-44.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '34':
+              location:
+                world: world
+                x: '87.0'
+                y: '42.0'
+                z: '-47.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '35':
+              location:
+                world: world
+                x: '89.0'
+                y: '42.0'
+                z: '-52.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '36':
+              location:
+                world: world
+                x: '87.0'
+                y: '42.0'
+                z: '-56.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+      sneak:
+        sneaking: false
+    traitnames: mounttrait,waypoints,owner,scoreboardtrait,inventory,sneak,type,spawned,commandtrait,location,skintrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      cached-skin-uuid-name: miner
+      cached-skin-uuid: 4e94f45c-759c-4293-af16-fdf219237a5d
+    name: §e[NPC] §fMiner
+    uuid: dd28a54c-2000-4477-b45a-a0375ff3d726
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: -94.31787
+        world: world
+        x: '99.7257'
+        y: '44.0'
+        z: '33.575'
+        yaw: '-94.3179'
+        pitch: '18.3937'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: p8omcU0K/E/6tiSbVQkTX843BjTpuGtzsgj4HHGHmnWDcsC7TL86TJCJuERLvtOZDatH00DFB6hVRNBNAgmJn0vzTFmtNY/vBXKfQRrnEUh8OE1z9alPwdZ9pQ6OUP9kiaz3zqyxejw8fH629XoUcrMO+gC2QrduvNVh2GcMA8umTVwCYMnWM9kwj/Is/i1ZTnXkNPEpsuKO0kRl0Zk+HWr88GT2UoEgHzU3MorSauy43RJcazJR3ph2Na+QJhXUom0O692K4RbE3mGd894QHHEVXmQDun4gOuNMqHtMO2Ijfae8HbCutUPMoC+rwsMPGlZR5Pk7IExkWStbrAO7AH/GD6kUeV4N07iEL92VuqcuHbpJKeCQeHE4mfe9Vz0L86ynk3vifkTtb8bm4H5dT45tRCuolI5HgLEH03KAj25nIfhKA6EflUbPdXpV4lUqxWB3wN1bh6H8zOTD4z7Cdc7aQI0R/UDhGbYc0FjI0UQjHUDysVhU4WNNT2sT6qvM616DNySGkLH6sf0GSJVilunU4Q1NdBnS32zPfcu6LaUrwXQ/IuWlF9L57ebBalqYpwZcat3yQNvTOKhvtz/1NP5gsZt/N8L+cJlWGHyUMTdPesDqupgVOy46mMdGV6IrEi1WU50/qIZwph99N4VrHv4dPNi6wQhVRQ3jyxSu00M=
+        skinName: miner
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyNDYwNjIwMDQ2MywKICAicHJvZmlsZUlkIiA6ICI0ZTk0ZjQ1Yzc1OWM0MjkzYWYxNmZkZjIxOTIzN2E1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NDg4NzBjYTc3YWE2OTlkMDE3MDkzYjgyNzc5ZDBhNTk4ZGM0ZjNmNDlkMzUxNTMyYWU0ZDk2MzNkY2MyYTVhIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      equipment:
+        hand:
+          type_key: diamond_pickaxe
+          amount: 1
+      inventory:
+        '0':
+          type_key: diamond_pickaxe
+          amount: 1
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+      sneak:
+        sneaking: false
+    traitnames: mounttrait,owner,scoreboardtrait,inventory,sneak,type,spawned,location,skintrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    name: §r
+    uuid: 45d87b42-0c27-421c-983f-bda71c74aaff
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: -1.1350098
+        world: world
+        x: '51.5664'
+        y: '43.0'
+        z: '-22.3832'
+        yaw: '-1.135'
+        pitch: '-3.9534'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: HdQuICXAF2lRyzPvwGwy4M7vJZBRen+yDwZGd8SXKzjLTIrRL8M3oldu9Tb9pOVX4mUivq/AuWLAiosVNDP2+wbCtQf1cJaCT1wV5ygKLyPPoyUe5q/u7byu5vkOHPIlkaAR75+Keb5no/BZOoxokgWVvGftVvSSEnyipMWQf7xEw4wJdvAeiNqSpIXktfhgqCDhSnoasAqdomfCtv3kWjsNAx6vwJlIgFJn5KLFfPCL/odJpch6QMcVRn4CyleWnrw3qan+7y52G4UpFRrVagEspGAwF7LoLhci/KTT3KMTGVbtOQQzeqZWVczTWxGA0Tl/pxu/XFDQzssYsihIIuLYOni8wRWJ1Wu3p1OUzvRMXgfML6thU6lbIEyPeDagFZpv+a7sFANpk+ToqSJQLh3rXRm8cIj6+SvSVcHRWPLoK6fc5cWEuVcNblwtcR9Ek0zuFiJ49fR1wPNgQHaT2J2LwqnEfeoXgvQy31xD+L24XbxmPMyFwq6/Q+ffFzqAXRMVXXKg5yO5MR16CwTxSMq2Zlp7q7AscmvAKMDuMcGy+pW4QWUp7ZaY/3SPLE/+RAJTDzopbLFyYxoOj1npEqKzu7Rme6sxnjKjuj78XwB2XOC56112Ozp/zaJkQ0OxUciEF/ctNJnP/wvmiWIx9rSus1wCpgJMSnqyH/keCvY=
+        skinName: 5fef61a2-e87e-4b69-af05-bd67c575513e
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxOTk4MTI2NTQwNCwKICAicHJvZmlsZUlkIiA6ICIxNzhmMTJkYWMzNTQ0ZjRhYjExNzkyZDc1MDkzY2JmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaWxlbnRkZXRydWN0aW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcwMDkxMTJmNDY2Yzc3OTlhN2E0MjM4ZDNlZTZiNTFmNGI5YTdjMzFiNTIyYzA2YTVjZmJmYmFhMTYwYTE3YmYiCiAgICB9CiAgfQp9
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: redstone
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: 'tellraw <p> "&e[NPC] &7Redstone: &fI have everything you need
+              come closer."'
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+      sneak:
+        sneaking: false
+    traitnames: mounttrait,owner,scoreboardtrait,inventory,sneak,type,spawned,commandtrait,location,skintrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: 5fef61a2-e87e-4b69-af05-bd67c575513e
+  '13':
+    metadata:
+      cached-skin-uuid-name: d64cb8f6-da7c-4e58-ad78-f7c7e37a78b6
+      nameplate-visible: 'false'
+    name: §r
+    uuid: 0c98c2ae-d385-41b4-b408-07d2baaccb33
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ryOIKzdJtILnHsrrt1Y4W/zWMnrM6mffmp+2NTE032svNf1LXp+5lZkkjtznjq3sr41ziGp2RmrXooMHaPb4zSs+ijqar+T/4i3LHSASjlPrPzPcqEUaez4G2cmJNgpfACueZtIzoM8yAl5tYLSd2qopTZS0CFQxrd+QG2UOG2R4swHQq6PdstOOfqZUW2zb/EZX99DfWx1Lkc9WKcvpHjopKsZf2w6TnclPebTyrAmUeU+Og3Ds7PEAnu8tfk4o1zzIHOO72KmrF/j9Z6/3bBv5BP/hMmJ8L/2FjT1JU44yuonqrcgNe/rZR3A1W4ln3i1x44eFv2Tg9f5t+c3UzOhCBMMuo3FU70sa5e6Le7gE0+Gyw8TbX+EVuOk5bJSU+odingOyiCKGWGLXsM4T1HCA7hXvVoz5GmpIQ1Y3F6pKiOfxdK6ZsueYV8PTjWkGb6zkoMI5j2GYg3kfEFwDG1Z2oNKcdJdFh65t2QccwS0Ep48FsU7MvKjA6GdBjoLXw9UbGVyjxs1+NqxaJ12ydLSRipngssWkTgDCQvhu3zGNhyPCLWvK2hlAhPI0XRt/Q0J9QHvmRXmtNr5AqlKwFnD04/sk50msghwB9xySlPxXYIpFN2Dks10I7WlCXPM23Sa/RNFipK463PJfU9LKhV3Y9hA6k6AUglIKHHalrVE=
+        skinName: d64cb8f6-da7c-4e58-ad78-f7c7e37a78b6
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxOTIxMjk5NzMyMSwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg0NTQ0MmNhOTUxOTMyZDM1ZjZmZDU5YzkxYWYyMjExYzIwNGYzYTFhZDQ4MzhjMTViNTc5NDA0MmU2NzA2ZCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: 'tellraw <p> "&e[NPC] &7Builder: &fHey do you need something
+              to build? come with me."'
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '2':
+            command: builder
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      location:
+        bodyYaw: -82.55298
+        world: world
+        x: '18.5988'
+        y: '44.0'
+        z: '15.5382'
+        yaw: '-82.553'
+        pitch: '-1.2997'
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+      sneak:
+        sneaking: false
+    traitnames: mounttrait,owner,scoreboardtrait,inventory,sneak,type,spawned,commandtrait,location,skintrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '12':
+    metadata:
+      cached-skin-uuid-name: sqxy
+      cached-skin-uuid: bf3dd3ee-e2ba-43b8-bc85-53b4e679727a
+    name: §e[NPC] §fAlex
+    uuid: 2488a4c5-d240-4506-9120-e2866a373b52
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: O6xa7XsN2lWxF19WZFyZBNS6Ucjtgc9A0wL8h56nh1/7vaZy8bwRoJAnGig1D5hd/m1fCTQkq271Z5n8fWo+BB44RkdtfX/0uo6lyZv++hrbY3yfDUnFZDPs4H8EFideE17JU9cHRA1xQg0fO7iJzgt5Poe+MO1q3bZ0uY/M6Or76AlB8Xt2h5QTfI2hl0Hy3aSiyRAKwzln769uhEpGu6pxu+3J83dtpvTFPkxxvRDSnvwdtqkhcrOxU2KrGxnrJtg2G0VGyf09vGjNerxmLW+/3bX02KbkFSdNGeYkYB0TTSJDk/9fZ6e0W2nprQjoxRBY5/+Y3jMpOb+JRdjm4gx4lcG241pVYIs7iYoOxfDuizy8Nu/Lh6V0cj9NJqSTb9YUxBl4Sv5Ua+DluJGg90ICtfA/ipF9UZtr9vl97E1RHsApEaekiFz0cIgjrreWu1a+rJPMSVXhRmXmmPAmqElxLoS2ql/Ab2m2IG57mSCUl3Crbg8V2kpnNQurdmxXre5BTDnV+M1401M/ztGJ8Xeq8euiZTb2IjUyIfQGCKjmS7qY4XjpJN4DL8iaTu3JMY7UY2iv4PwmIIft/HU8evnnQQhK8pMVybPRe1SohRp0Kom9sJ31srHDTP8CS76annJBL+Ij1mGxOuYZC93EToIGNbWrotzLRHoZxbwg+BI=
+        skinName: sqxy
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyNDYwODM5MzEyOSwKICAicHJvZmlsZUlkIiA6ICJiZjNkZDNlZWUyYmE0M2I4YmM4NTUzYjRlNjc5NzI3YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcXh5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdhZWU4MjJkNTU3OGNjNjUyZmE2MzNlMjJiNDI0YzRmYzBjMmQ4MDBjYWY4ZTBkOWI3OTY0OGM5NjFkM2U1MGIiCiAgICB9CiAgfQp9
+        updateSkins: false
+      spawned: true
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+          points:
+            '0':
+              location:
+                world: world
+                x: '12.0'
+                y: '43.0'
+                z: '61.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: world
+                x: '9.0'
+                y: '43.0'
+                z: '61.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: world
+                x: '16.0'
+                y: '43.0'
+                z: '58.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: world
+                x: '24.0'
+                y: '43.0'
+                z: '57.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '4':
+              location:
+                world: world
+                x: '30.0'
+                y: '43.0'
+                z: '52.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '5':
+              location:
+                world: world
+                x: '35.0'
+                y: '43.0'
+                z: '46.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '6':
+              location:
+                world: world
+                x: '39.0'
+                y: '43.0'
+                z: '40.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '7':
+              location:
+                world: world
+                x: '43.0'
+                y: '43.0'
+                z: '34.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '8':
+              location:
+                world: world
+                x: '48.0'
+                y: '43.0'
+                z: '31.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '9':
+              location:
+                world: world
+                x: '49.0'
+                y: '43.0'
+                z: '25.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '10':
+              location:
+                world: world
+                x: '55.0'
+                y: '43.0'
+                z: '22.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '11':
+              location:
+                world: world
+                x: '61.0'
+                y: '43.0'
+                z: '18.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '12':
+              location:
+                world: world
+                x: '57.0'
+                y: '44.0'
+                z: '12.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '13':
+              location:
+                world: world
+                x: '56.0'
+                y: '44.0'
+                z: '7.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '14':
+              location:
+                world: world
+                x: '51.0'
+                y: '43.0'
+                z: '5.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '15':
+              location:
+                world: world
+                x: '46.0'
+                y: '43.0'
+                z: '9.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '16':
+              location:
+                world: world
+                x: '43.0'
+                y: '43.0'
+                z: '16.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '17':
+              location:
+                world: world
+                x: '39.0'
+                y: '43.0'
+                z: '10.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '18':
+              location:
+                world: world
+                x: '33.0'
+                y: '43.0'
+                z: '13.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '19':
+              location:
+                world: world
+                x: '30.0'
+                y: '43.0'
+                z: '6.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '20':
+              location:
+                world: world
+                x: '23.0'
+                y: '43.0'
+                z: '4.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '21':
+              location:
+                world: world
+                x: '22.0'
+                y: '43.0'
+                z: '10.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '22':
+              location:
+                world: world
+                x: '28.0'
+                y: '43.0'
+                z: '13.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '23':
+              location:
+                world: world
+                x: '21.0'
+                y: '43.0'
+                z: '16.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '24':
+              location:
+                world: world
+                x: '26.0'
+                y: '44.0'
+                z: '19.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '25':
+              location:
+                world: world
+                x: '30.0'
+                y: '43.0'
+                z: '12.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '26':
+              location:
+                world: world
+                x: '36.0'
+                y: '43.0'
+                z: '15.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '27':
+              location:
+                world: world
+                x: '41.0'
+                y: '43.0'
+                z: '15.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '28':
+              location:
+                world: world
+                x: '47.0'
+                y: '43.0'
+                z: '17.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '29':
+              location:
+                world: world
+                x: '48.0'
+                y: '43.0'
+                z: '23.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '30':
+              location:
+                world: world
+                x: '42.0'
+                y: '43.0'
+                z: '28.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '31':
+              location:
+                world: world
+                x: '37.0'
+                y: '43.0'
+                z: '34.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '32':
+              location:
+                world: world
+                x: '31.0'
+                y: '43.0'
+                z: '41.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '33':
+              location:
+                world: world
+                x: '27.0'
+                y: '43.0'
+                z: '47.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '34':
+              location:
+                world: world
+                x: '21.0'
+                y: '42.0'
+                z: '46.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '35':
+              location:
+                world: world
+                x: '18.0'
+                y: '42.0'
+                z: '53.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '36':
+              location:
+                world: world
+                x: '13.0'
+                y: '43.0'
+                z: '57.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '37':
+              location:
+                world: world
+                x: '11.0'
+                y: '43.0'
+                z: '60.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '1':
+            command: 'tellraw <p> "&e[NPC] &7Alex: &fHello!!."'
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      location:
+        bodyYaw: 45.00322
+        world: world
+        x: '40.0118'
+        y: '44.0'
+        z: '30.9882'
+        yaw: '45.0032'
+        pitch: '0.0'
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+      sneak:
+        sneaking: false
+    traitnames: mounttrait,waypoints,owner,scoreboardtrait,inventory,sneak,type,spawned,commandtrait,location,skintrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    metadata:
+      cached-skin-uuid-name: d86606fa-c9c7-43b1-a9b1-987ffc05a373
+      cached-skin-uuid: 2c45ba42-2b02-4428-a324-e0e17929b66f
+    name: §e[NPC] §fChef
+    uuid: 42a85898-a0e4-4b99-bbdf-ed81bc8a22b4
+    traits:
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        headonly: false
+        perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      equipment:
+        hand:
+          type_key: egg
+          amount: 16
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: 'tellraw <p> "&e[NPC] &7Chef: &fI think this goes like this,
+              I hope the cake."'
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: aBU11Pt/Lm34BPKlkWh45ZPF23C0ltrlWDHZ18zg9wIXt9Yw/aevCG8JeMRyy2r/s6HwmKMiUBNVg28CQ8YkzaADZuhkBUYt+2E4SBRYh3J2CP/Wioz1A6miAFnIlQQZxK1GKWTEpeL2IiFoPVXwYOZhgvD1Z1AUL/JWMqEZoJkx+YyXdjZVHKgoFueDkudg2+Tlrb4yJJbE7IwKpUTeSDiWRF4TkwatV6fnB7jKWOMOjC3DzY/Ff+96pAgqaCpt50e6i3o1lsjq8Scb+VThaRncAIhP/h0fTMwuGKEdXvR5oHu5qD9Vm5Qnl8SJvVanEAdFSP6oyB5qNAk6e2NUVVMuYNsg2HBBFXbyhkMBMabdQcZEkpNISzIf4gakC+dz9YZSK+xTtdj9np25KOaTrSEiJINcUD34Zj5TSN68r0ia0xyMiu7doERmcvAJKP4XJu9/Or/szp6biAhZR8k9Hm0Vx9Yba9oy1ExswOqrJiphmX4ghvNzgp34k1iar2kxILY1UHEnXZddc9FgkLpToUZafY93pUlHDGw1bSLRe/jKvgcNI2Xxd253TWeXkGx25PMncyL5vHdUEu1SoVVCIu3tWapAmdWy9wphiCI5szPt00I/x/Z20tEjjsPqzN9vulC4giQdi41xcqSlahY8pVUNXWtB2rIkty3Wj9hR9NM=
+        skinName: d86606fa-c9c7-43b1-a9b1-987ffc05a373
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyMzcwOTA1NzQwNCwKICAicHJvZmlsZUlkIiA6ICIwYTUzMDU0MTM4YWI0YjIyOTVhMGNlZmJiMGU4MmFkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQX0hpc2lybyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMzhmMGVjZTczZGQyOGM0ZWVlNDBmNjVhMDU0YTYwMGU0ODE4MTZmMDMxNmI1MWNhYThlOTk1OWFjNmY0MGYwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      inventory:
+        '0':
+          type_key: egg
+          amount: 16
+      location:
+        bodyYaw: -274.12402
+        world: world
+        x: '60.8233'
+        y: '44.0'
+        z: '40.0428'
+        yaw: '85.876'
+        pitch: '8.1938'
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+      sneak:
+        sneaking: false
+    traitnames: mounttrait,owner,scoreboardtrait,inventory,lookclose,sneak,type,spawned,commandtrait,location,skintrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    metadata:
+      flyable: true
+      nameplate-visible: 'false'
+    name: §r
+    uuid: 39c2a2dd-e042-4103-b4cd-779153d34b06
+    traits:
+      location:
+        bodyYaw: 45.3423
+        world: world
+        x: '64.4432'
+        y: '45.2492'
+        z: '6.5633'
+        yaw: '45.0124'
+        pitch: '0.0'
+      age:
+        age: 0
+        locked: true
+      type: BEE
+      spawned: true
+      gravity:
+        enabled: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: 'tellraw <p> "&e[NPC] &7Cute Bee: &fWhat are you waiting for
+              !!."'
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: warps
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        headonly: false
+        perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+    traitnames: mounttrait,owner,age,scoreboardtrait,lookclose,type,rotationtrait,spawned,gravity,commandtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    metadata:
+      flyable: true
+      nameplate-visible: 'false'
+    name: §r
+    uuid: 215a208e-eac8-4d5e-92c9-08087731f46d
+    traits:
+      type: BEE
+      location:
+        bodyYaw: -10.422702
+        world: world
+        x: '124.5695'
+        y: '45.1246'
+        z: '5.3888'
+        yaw: '-10.4227'
+        pitch: '0.0'
+      age:
+        age: 0
+        locked: true
+      gravity:
+        enabled: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        headonly: false
+        perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: 'tellraw <p> "&e[NPC] &7Cute Bee: &fGood luck on the trip, come
+              back soon. ;)"'
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+    traitnames: mounttrait,owner,age,scoreboardtrait,lookclose,type,spawned,gravity,commandtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '18':
+    name: §r
+    uuid: bffb2d3d-4061-4e5d-a74f-7b7b855e8e02
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: tellraw <p> "&e[NPC] &fWow, looks like you need a little help."
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      location:
+        bodyYaw: 154.09775
+        world: world
+        x: '86.5636'
+        y: '44.0'
+        z: '21.7036'
+        yaw: '174.0977'
+        pitch: '0.0'
+      age:
+        age: 0
+        locked: true
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        headonly: false
+        perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: dad3bd02-62b0-486b-9559-7dfcfe458fc5
+    traitnames: mounttrait,age,owner,scoreboardtrait,lookclose,type,rotationtrait,spawned,commandtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+
+
+# Downloaded from https://nullforums.net/resources/1-survival-custom-1-19.6604/
+# 462573LZOSINHEHDMA7SLE
